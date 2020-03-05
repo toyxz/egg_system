@@ -1,0 +1,263 @@
+2020-03-04 10:48:32,193 ERROR 16392 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 16392
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 18:00:04,702 ERROR 22485 nodejs.TypeError: Cannot read property 'get' of undefined
+    at LoginService.find (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:5:40)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:9:58)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+
+pid: 22485
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 18:01:12,944 ERROR 22521 nodejs.TypeError: Cannot read property 'select' of undefined
+    at LoginService.find (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:5:40)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:9:58)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+
+pid: 22521
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 18:02:42,869 ERROR 22560 nodejs.TypeError: Cannot read property 'select' of undefined
+    at LoginService.find (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:5:40)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:9:58)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+
+pid: 22560
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 18:08:18,944 ERROR 22873 nodejs.TypeError: Cannot read property 'select' of undefined
+    at LoginService.find (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:5:40)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:9:58)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+
+pid: 22873
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 18:09:09,194 ERROR 22916 nodejs.TypeError: Cannot read property 'select' of undefined
+    at LoginService.find (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:5:47)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:9:58)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+
+pid: 22916
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 18:09:26,288 ERROR 22956 nodejs.TypeError: this.ctx.service.login.getUserById is not a function
+    at LoginService.find (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:5:48)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:9:58)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+
+pid: 22956
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 18:09:57,532 ERROR 23018 nodejs.TypeError: this.ctx.service.login.getUserById is not a function
+    at LoginService.find (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:6:48)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:9:58)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+
+pid: 23018
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 18:11:42,008 ERROR 23195 nodejs.TypeError: Cannot read property 'get' of undefined
+    at LoginService.find (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:5:40)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:9:58)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+
+pid: 23195
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 19:24:17,008 ERROR 23431 nodejs.ClusterClientNoResponseError: client no response in 3913622ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 23431
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 20:48:46,985 ERROR 23431 nodejs.ClusterClientNoResponseError: client no response in 326708ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 23431
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 21:00:43,302 ERROR 23431 nodejs.ClusterClientNoResponseError: client no response in 576267ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 23431
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 21:10:59,758 ERROR 23431 nodejs.ClusterClientNoResponseError: client no response in 576434ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 23431
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 21:17:51,528 ERROR 23431 nodejs.ClusterClientNoResponseError: client no response in 391742ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 23431
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 21:42:48,190 ERROR 23431 nodejs.ClusterClientNoResponseError: client no response in 576476ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 23431
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 21:52:44,990 ERROR 23431 nodejs.ClusterClientNoResponseError: client no response in 576782ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 23431
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 22:02:59,583 ERROR 23431 nodejs.ClusterClientNoResponseError: client no response in 575044ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 23431
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 22:07:43,196 ERROR 23431 nodejs.ClusterClientNoResponseError: client no response in 242329ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 23431
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 22:18:18,381 ERROR 23431 nodejs.ClusterClientNoResponseError: client no response in 615154ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 23431
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 22:27:57,465 ERROR 23431 nodejs.ClusterClientNoResponseError: client no response in 138988ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 23431
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 13:56:50,115 ERROR 26982 nodejs.ClusterClientNoResponseError: client no response in 691301ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 26982
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 14:17:07,285 ERROR 26982 nodejs.ClusterClientNoResponseError: client no response in 575742ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 26982
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 14:21:20,367 ERROR 26982 nodejs.ClusterClientNoResponseError: client no response in 212644ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 26982
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 14:28:12,151 ERROR 26982 nodejs.ClusterClientNoResponseError: client no response in 231755ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 26982
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 15:20:27,318 ERROR 28743 nodejs.ClusterClientNoResponseError: client no response in 556404ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 28743
+hostname: zhendeMacBook-Pro.local
+

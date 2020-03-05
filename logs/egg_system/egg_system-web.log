@@ -1,0 +1,351 @@
+2020-03-04 10:48:32,195 ERROR 16392 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 16392
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 15:27:24,139 WARN 18053 [-/127.0.0.1/-/27ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 15:27:24,143 WARN 18053 [-/127.0.0.1/-/29ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 18053
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 15:28:09,269 WARN 18053 [-/127.0.0.1/-/1ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 15:28:09,270 WARN 18053 [-/127.0.0.1/-/2ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 18053
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 15:28:16,261 WARN 18053 [-/127.0.0.1/-/0ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 15:28:16,261 WARN 18053 [-/127.0.0.1/-/0ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 18053
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 15:29:34,276 WARN 19828 [-/127.0.0.1/-/17ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 15:29:34,278 WARN 19828 [-/127.0.0.1/-/19ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 19828
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 15:49:19,931 WARN 19828 [-/127.0.0.1/-/1ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 15:49:19,932 WARN 19828 [-/127.0.0.1/-/3ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 19828
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 15:51:29,534 WARN 20141 [-/127.0.0.1/-/19ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 15:51:29,535 WARN 20141 [-/127.0.0.1/-/20ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20141
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 15:57:03,466 WARN 20232 [-/127.0.0.1/-/9ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 15:57:03,467 WARN 20232 [-/127.0.0.1/-/11ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20232
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:01:04,469 WARN 20388 [-/127.0.0.1/-/17ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:01:04,470 WARN 20388 [-/127.0.0.1/-/19ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20388
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:02:05,195 WARN 20445 [-/127.0.0.1/-/12ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:02:05,196 WARN 20445 [-/127.0.0.1/-/13ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20445
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:03:04,121 WARN 20445 [-/127.0.0.1/-/1ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:03:04,121 WARN 20445 [-/127.0.0.1/-/1ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20445
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:04:58,438 WARN 20445 [-/127.0.0.1/-/0ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:04:58,438 WARN 20445 [-/127.0.0.1/-/0ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20445
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:08:53,805 WARN 20645 [-/127.0.0.1/-/21ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:08:53,806 WARN 20645 [-/127.0.0.1/-/22ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20645
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:14:47,403 WARN 20670 [-/127.0.0.1/-/22ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:14:47,405 WARN 20670 [-/127.0.0.1/-/23ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20670
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:19:34,110 WARN 20670 [-/127.0.0.1/-/1ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:19:34,110 WARN 20670 [-/127.0.0.1/-/1ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20670
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:20:23,267 WARN 20670 [-/127.0.0.1/-/0ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:20:23,267 WARN 20670 [-/127.0.0.1/-/0ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20670
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:25:47,425 WARN 20670 [-/127.0.0.1/-/0ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:25:47,426 WARN 20670 [-/127.0.0.1/-/0ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20670
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:26:45,956 WARN 20670 [-/127.0.0.1/-/1ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:26:45,956 WARN 20670 [-/127.0.0.1/-/1ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20670
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:27:21,589 WARN 20952 [-/127.0.0.1/-/19ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:27:21,590 WARN 20952 [-/127.0.0.1/-/20ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20952
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:28:54,352 WARN 20991 [-/127.0.0.1/-/19ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:28:54,353 WARN 20991 [-/127.0.0.1/-/20ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20991
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 17:36:37,704 WARN 22057 [-/::1/-/2ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 17:36:37,705 WARN 22057 [-/::1/-/3ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:153:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 22057
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 17:37:58,847 WARN 22057 [-/::1/-/1ms POST /api/login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 17:37:58,847 WARN 22057 [-/::1/-/1ms POST /api/login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:153:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 22057
+hostname: zhendeMacBook-Pro.local
+

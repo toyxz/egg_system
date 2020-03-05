@@ -1,0 +1,28 @@
+{
+  "name": "egg_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toyxz/egg_system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toyxz/egg_system/issues"
+  },
+  "homepage": "https://github.com/toyxz/egg_system#readme",
+  "dependencies": {
+    "egg": "^2.26.0",
+    "egg-mysql": "^3.0.0",
+    "nodemailer": "^6.4.4"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.1"
+  }
+}
