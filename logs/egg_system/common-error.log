@@ -261,3 +261,472 @@ name: "ClusterClientNoResponseError"
 pid: 28743
 hostname: zhendeMacBook-Pro.local
 
+2020-03-05 19:14:35,515 ERROR 34111 nodejs.ClusterClientNoResponseError: client no response in 569607ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 34111
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 19:24:51,617 ERROR 34111 nodejs.ClusterClientNoResponseError: client no response in 576349ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 34111
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 19:55:20,909 ERROR 34111 nodejs.ClusterClientNoResponseError: client no response in 576586ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 34111
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 19:58:49,724 ERROR 34111 nodejs.ClusterClientNoResponseError: client no response in 188792ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 34111
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 20:01:23,020 ERROR 34111 nodejs.ClusterClientNoResponseError: client no response in 153285ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 34111
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 21:35:05,855 ERROR 34111 nodejs.ClusterClientNoResponseError: client no response in 61902ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 34111
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 21:45:01,942 ERROR 34111 nodejs.ClusterClientNoResponseError: client no response in 576044ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 34111
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 21:55:16,626 ERROR 34111 nodejs.ClusterClientNoResponseError: client no response in 594586ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 34111
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 23:39:20,792 ERROR 34111 nodejs.ClusterClientNoResponseError: client no response in 4003286ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 34111
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 23:45:22,190 ERROR 36320 [-/127.0.0.1/-/1325ms POST /api/emailVerify] nodejs.TypeError: Cannot set property 'data' of undefined
+    at Register.emailVerify (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/register.js:28:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-static-cache/index.js:51:63
+
+pid: 36320
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 00:17:51,529 ERROR 34111 nodejs.ClusterClientNoResponseError: client no response in 68337ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 34111
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 17:48:39,722 ERROR 43434 [-/127.0.0.1/-/15ms POST /api/register] nodejs.TypeError: ctx.service.register.findAccount is not a function
+    at Register.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/register.js:13:55)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 43434
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 17:49:38,652 ERROR 43456 [-/127.0.0.1/-/11ms POST /api/register] nodejs.TypeError: ctx.service.register.findAccount is not a function
+    at Register.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/register.js:13:55)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 43456
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 17:59:54,341 ERROR 43724 [-/127.0.0.1/-/17ms POST /api/register] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'verificationCode' in 'field list'
+    at Query.Sequence._packetToError (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:65:19)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:54:5
+    sql: INSERT INTO `account`(`email`, `verificationCode`, `account`, `password`, `repeatPassword`) VALUES('2225@qq.com', '22', '22', '11', '11')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'verificationCode' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `account`(`email`, `verificationCode`, `account`, `password`, `repeatPassword`) VALUES('2225@qq.com', '22', '22', '11', '11')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 43724
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 18:01:56,192 ERROR 43777 [-/127.0.0.1/-/23ms POST /api/register] nodejs.ER_NO_DEFAULT_FOR_FIELDError: ER_NO_DEFAULT_FOR_FIELD: Field 'regTime' doesn't have a default value
+    at Query.Sequence._packetToError (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:65:19)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:54:5
+    sql: INSERT INTO `account`(`account`, `password`, `email`) VALUES('22', '22', '2225@qq.com')
+code: "ER_NO_DEFAULT_FOR_FIELD"
+errno: 1364
+sqlMessage: "Field 'regTime' doesn't have a default value"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO `account`(`account`, `password`, `email`) VALUES('22', '22', '2225@qq.com')"
+name: "ER_NO_DEFAULT_FOR_FIELDError"
+pid: 43777
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 18:12:15,855 ERROR 43913 [-/127.0.0.1/-/15ms POST /api/register] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'account' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:65:19)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `account` WHERE `account` = '222' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'account' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `account` WHERE `account` = '222' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 43913
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 18:13:56,591 ERROR 43949 [-/127.0.0.1/-/16ms POST /api/register] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'account' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:65:19)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `account` WHERE `account` = '11' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'account' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `account` WHERE `account` = '11' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 43949
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 19:01:52,037 ERROR 38941 nodejs.ClusterClientNoResponseError: client no response in 571002ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 38941
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 19:22:05,010 ERROR 38941 nodejs.ClusterClientNoResponseError: client no response in 577114ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 38941
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 19:32:20,876 ERROR 38941 nodejs.ClusterClientNoResponseError: client no response in 575761ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 38941
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 19:38:37,749 ERROR 38941 nodejs.ClusterClientNoResponseError: client no response in 336692ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 38941
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 21:17:56,163 ERROR 38941 nodejs.ClusterClientNoResponseError: client no response in 575634ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 38941
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 21:28:12,179 ERROR 38941 nodejs.ClusterClientNoResponseError: client no response in 575885ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 38941
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 21:30:57,472 ERROR 38941 nodejs.ClusterClientNoResponseError: client no response in 145152ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 38941
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 21:38:55,542 ERROR 38941 nodejs.ClusterClientNoResponseError: client no response in 123834ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 38941
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 22:09:08,966 ERROR 38941 nodejs.ClusterClientNoResponseError: client no response in 872623ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 38941
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 22:53:10,628 ERROR 48275 [-/127.0.0.1/-/1319ms POST /api/emailVerify] nodejs.TypeError: this.setState is not a function
+    at Register.emailVerify (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/register.js:61:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-static-cache/index.js:51:63
+
+pid: 48275
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 23:50:47,002 ERROR 38941 nodejs.ClusterClientNoResponseError: client no response in 135247ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 38941
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 08:31:37,357 ERROR 1502 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1126:14)
+    --------------------
+    at Protocol._enqueue (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 1502
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 08:36:43,814 ERROR 1587 [-/127.0.0.1/-/3ms POST /api/register] nodejs.ReferenceError: requestObj is not defined
+    at RegisterService.saveAccount (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/register.js:7:47)
+    at Register.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/register.js:36:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+
+pid: 1587
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 08:38:46,152 ERROR 1696 [-/127.0.0.1/-/95ms POST /api/register] nodejs.ER_DATA_TOO_LONGError: ER_DATA_TOO_LONG: Data too long for column 'password' at row 1
+    at Query.Sequence._packetToError (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:65:19)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:54:5
+    sql: INSERT INTO `account`(`username`, `password`, `email`) VALUES('37', '$2a$10$jdvlmlaaCk0T/vyFix8XNeaqQ9AbkZ0kAHxqi9GfUv56CrKRmGnPG', '1575539475@qq.com')
+code: "ER_DATA_TOO_LONG"
+errno: 1406
+sqlMessage: "Data too long for column 'password' at row 1"
+sqlState: "22001"
+index: 0
+sql: "INSERT INTO `account`(`username`, `password`, `email`) VALUES('37', '$2a$10$jdvlmlaaCk0T/vyFix8XNeaqQ9AbkZ0kAHxqi9GfUv56CrKRmGnPG', '1575539475@qq.com')"
+name: "ER_DATA_TOO_LONGError"
+pid: 1696
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 11:05:18,017 ERROR 3736 [-/127.0.0.1/-/15ms POST /api/login] nodejs.ReferenceError: account is not defined
+    at LoginService.findAccount (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:28:67)
+    at LoginService.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:5:36)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:7:50)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 3736
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 11:11:02,296 ERROR 3881 [-/127.0.0.1/-/16ms POST /api/login] nodejs.ReferenceError: hashPwd is not defined
+    at LoginService.checkPassword (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:41:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async LoginService.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:14:20)
+    at async Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:7:26)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+
+pid: 3881
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 11:11:47,977 ERROR 3908 [-/127.0.0.1/-/118ms POST /api/login] nodejs.ReferenceError: hashPwd is not defined
+    at LoginService.checkPassword (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:45:34)
+    at async LoginService.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:14:20)
+    at async Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:7:26)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+
+pid: 3908
+hostname: zhendeMacBook-Pro.local
+

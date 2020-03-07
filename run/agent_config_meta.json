@@ -69,6 +69,9 @@
       "connectionLimit": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-mysql/config/config.default.js"
     }
   },
+  "bcrypt": {
+    "saltRounds": "/Users/yao37/projects/practices/graduation-project/egg_system/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-session/config/config.default.js",
     "key": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-session/config/config.default.js",
@@ -189,6 +192,7 @@
     "homepage": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js",
     "dependencies": {
       "egg": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js",
+      "egg-bcrypt": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js",
       "nodemailer": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js"
     },

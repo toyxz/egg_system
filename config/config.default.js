@@ -25,6 +25,9 @@ module.exports = appInfo => {
         // 是否加载到 agent 上，默认关闭
         agent: false,
     };
+    config.bcrypt = {
+        saltRounds: 10 // default 10
+    }
 	return {
         ...config,
 	};

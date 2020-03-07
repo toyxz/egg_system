@@ -18,7 +18,6 @@ const transporter = nodemailer.createTransport({
 class EmailVerify extends Service {
 
   async sendMail(email, subject, text, html) {
-
     const mailOptions = {
       from: user_email, // 发送者,与上面的user一致
       to: email,   // 接收者,可以同时发送多个,以逗号隔开
@@ -43,6 +42,15 @@ class EmailVerify extends Service {
 
     } catch (err) {
       return false;
+    }
+  }
+
+  async findEmail(email) {
+    const result = await this.app.mysql.get('account', {email: email});
+    if (result) {
+      return true;
+    } else {
+        return false;
     }
   }
 

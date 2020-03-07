@@ -163,6 +163,9 @@
         "database": "Web3D"
       }
     },
+    "bcrypt": {
+      "saltRounds": 10
+    },
     "env": "local",
     "name": "egg_system",
     "keys": "<String len: 29>",
@@ -194,6 +197,7 @@
       "homepage": "https://github.com/toyxz/egg_system#readme",
       "dependencies": {
         "egg": "^2.26.0",
+        "egg-bcrypt": "^1.1.0",
         "egg-mysql": "^3.0.0",
         "nodemailer": "^6.4.4"
       },
@@ -459,6 +463,17 @@
       "from": "/Users/yao37/projects/practices/graduation-project/egg_system/config/plugin.js",
       "path": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-mysql",
       "version": "3.0.0"
+    },
+    "bcrypt": {
+      "enable": true,
+      "package": "egg-bcrypt",
+      "name": "bcrypt",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/yao37/projects/practices/graduation-project/egg_system/config/plugin.js",
+      "path": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-bcrypt",
+      "version": "1.1.0"
     }
   }
 }
