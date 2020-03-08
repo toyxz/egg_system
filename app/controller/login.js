@@ -3,8 +3,7 @@ const Controller = require('egg').Controller;
 class Login extends Controller {
     async index() {
         const { ctx } = this;
-        const { password, account } = ctx.request.body;
-        const response = await ctx.service.login.index(password, account);
+        const response = await ctx.service.login.index(ctx.request.body);
         ctx.body = response;
     }
 }

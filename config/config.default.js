@@ -27,7 +27,10 @@ module.exports = appInfo => {
     };
     config.bcrypt = {
         saltRounds: 10 // default 10
-    }
+    };
+    config.jwt = {
+        secret: "yao37hasasecret" //自己设置的密钥
+    };
 	return {
         ...config,
 	};

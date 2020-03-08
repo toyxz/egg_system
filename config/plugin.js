@@ -4,5 +4,9 @@ exports.mysql = {
 };
 exports.bcrypt = {
     enable: true,
-    package: 'egg-bcrypt'
+    package: 'egg-bcrypt',
+};
+exports.jwt = {
+    enable: true,
+    package: "egg-jwt",
 };

@@ -107,6 +107,7 @@
         "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-view/config/locales",
         "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-mysql/config/locales",
         "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-bcrypt/config/locales",
+        "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-jwt/config/locales",
         "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/locales",
         "/Users/yao37/projects/practices/graduation-project/egg_system/config/locales"
       ],
@@ -197,6 +198,10 @@
     "bcrypt": {
       "saltRounds": 10
     },
+    "jwt": {
+      "secret": "<String len: 15>",
+      "enable": false
+    },
     "env": "local",
     "name": "egg_system",
     "keys": "<String len: 29>",
@@ -229,6 +234,7 @@
       "dependencies": {
         "egg": "^2.26.0",
         "egg-bcrypt": "^1.1.0",
+        "egg-jwt": "^3.1.7",
         "egg-mysql": "^3.0.0",
         "nodemailer": "^6.4.4"
       },
@@ -339,7 +345,9 @@
     },
     "onClientError": null,
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": [],
+    "appMiddlewares": [
+      "jwt"
+    ],
     "appMiddleware": "~config~appMiddlewares",
     "multipartParseOptions": {
       "autoFields": false,
@@ -522,6 +530,19 @@
       "from": "/Users/yao37/projects/practices/graduation-project/egg_system/config/plugin.js",
       "path": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-bcrypt",
       "version": "1.1.0"
+    },
+    "jwt": {
+      "enable": true,
+      "package": "egg-jwt",
+      "name": "jwt",
+      "dependencies": [],
+      "optionalDependencies": [
+        "onerror"
+      ],
+      "env": [],
+      "from": "/Users/yao37/projects/practices/graduation-project/egg_system/config/plugin.js",
+      "path": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-jwt",
+      "version": "3.1.7"
     }
   }
 }
