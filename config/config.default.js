@@ -31,6 +31,13 @@ module.exports = appInfo => {
     config.jwt = {
         secret: "yao37hasasecret" //自己设置的密钥
     };
+    config.multipart = {
+        mode: 'file',
+        fileSize: '50mb',
+        whitelist: [
+            '.zip','.rar',
+        ],
+    };
 	return {
         ...config,
 	};

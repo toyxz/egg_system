@@ -198,6 +198,7 @@
       "egg": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js",
       "egg-bcrypt": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js",
       "egg-jwt": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js",
+      "egg-multipart": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js",
       "nodemailer": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js"
     },

@@ -134,16 +134,19 @@
       "directory": []
     },
     "multipart": {
-      "mode": "stream",
+      "mode": "file",
       "autoFields": false,
       "defaultCharset": "utf8",
       "fieldNameSize": 100,
       "fieldSize": 102400,
       "fields": 10,
-      "fileSize": 10485760,
+      "fileSize": 52428800,
       "files": 10,
       "fileExtensions": [],
-      "whitelist": null,
+      "whitelist": [
+        ".zip",
+        ".rar"
+      ],
       "tmpdir": "/var/folders/tb/qt6d92sn33x4xpstn8nzzhbc0000gn/T/egg-multipart-tmp/egg_system",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
@@ -235,6 +238,7 @@
         "egg": "^2.26.0",
         "egg-bcrypt": "^1.1.0",
         "egg-jwt": "^3.1.7",
+        "egg-multipart": "^2.10.1",
         "egg-mysql": "^3.0.0",
         "nodemailer": "^6.4.4"
       },
@@ -328,6 +332,7 @@
       "session",
       "securities",
       "i18n",
+      "multipart",
       "eggLoaderTrace"
     ],
     "workerStartTimeout": 600000,
@@ -356,7 +361,7 @@
         "fieldNameSize": 100,
         "fieldSize": 102400,
         "fields": 10,
-        "fileSize": 10485760,
+        "fileSize": 52428800,
         "files": 10
       },
       "checkFile": "<Function checkFile>"
