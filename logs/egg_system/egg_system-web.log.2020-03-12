@@ -1,0 +1,1322 @@
+2020-03-04 10:48:32,195 ERROR 16392 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 16392
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 15:27:24,139 WARN 18053 [-/127.0.0.1/-/27ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 15:27:24,143 WARN 18053 [-/127.0.0.1/-/29ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 18053
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 15:28:09,269 WARN 18053 [-/127.0.0.1/-/1ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 15:28:09,270 WARN 18053 [-/127.0.0.1/-/2ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 18053
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 15:28:16,261 WARN 18053 [-/127.0.0.1/-/0ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 15:28:16,261 WARN 18053 [-/127.0.0.1/-/0ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 18053
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 15:29:34,276 WARN 19828 [-/127.0.0.1/-/17ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 15:29:34,278 WARN 19828 [-/127.0.0.1/-/19ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 19828
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 15:49:19,931 WARN 19828 [-/127.0.0.1/-/1ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 15:49:19,932 WARN 19828 [-/127.0.0.1/-/3ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 19828
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 15:51:29,534 WARN 20141 [-/127.0.0.1/-/19ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 15:51:29,535 WARN 20141 [-/127.0.0.1/-/20ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20141
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 15:57:03,466 WARN 20232 [-/127.0.0.1/-/9ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 15:57:03,467 WARN 20232 [-/127.0.0.1/-/11ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20232
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:01:04,469 WARN 20388 [-/127.0.0.1/-/17ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:01:04,470 WARN 20388 [-/127.0.0.1/-/19ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20388
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:02:05,195 WARN 20445 [-/127.0.0.1/-/12ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:02:05,196 WARN 20445 [-/127.0.0.1/-/13ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20445
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:03:04,121 WARN 20445 [-/127.0.0.1/-/1ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:03:04,121 WARN 20445 [-/127.0.0.1/-/1ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20445
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:04:58,438 WARN 20445 [-/127.0.0.1/-/0ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:04:58,438 WARN 20445 [-/127.0.0.1/-/0ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20445
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:08:53,805 WARN 20645 [-/127.0.0.1/-/21ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:08:53,806 WARN 20645 [-/127.0.0.1/-/22ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20645
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:14:47,403 WARN 20670 [-/127.0.0.1/-/22ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:14:47,405 WARN 20670 [-/127.0.0.1/-/23ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20670
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:19:34,110 WARN 20670 [-/127.0.0.1/-/1ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:19:34,110 WARN 20670 [-/127.0.0.1/-/1ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20670
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:20:23,267 WARN 20670 [-/127.0.0.1/-/0ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:20:23,267 WARN 20670 [-/127.0.0.1/-/0ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20670
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:25:47,425 WARN 20670 [-/127.0.0.1/-/0ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:25:47,426 WARN 20670 [-/127.0.0.1/-/0ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20670
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:26:45,956 WARN 20670 [-/127.0.0.1/-/1ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:26:45,956 WARN 20670 [-/127.0.0.1/-/1ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20670
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:27:21,589 WARN 20952 [-/127.0.0.1/-/19ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:27:21,590 WARN 20952 [-/127.0.0.1/-/20ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20952
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 16:28:54,352 WARN 20991 [-/127.0.0.1/-/19ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 16:28:54,353 WARN 20991 [-/127.0.0.1/-/20ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 20991
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 17:36:37,704 WARN 22057 [-/::1/-/2ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 17:36:37,705 WARN 22057 [-/::1/-/3ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:153:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 22057
+hostname: zhendeMacBook-Pro.local
+
+2020-03-04 17:37:58,847 WARN 22057 [-/::1/-/1ms POST /api/login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-04 17:37:58,847 WARN 22057 [-/::1/-/1ms POST /api/login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:153:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 22057
+hostname: zhendeMacBook-Pro.local
+
+2020-03-05 23:45:22,193 ERROR 36320 [-/127.0.0.1/-/1325ms POST /api/emailVerify] nodejs.TypeError: Cannot set property 'data' of undefined
+    at Register.emailVerify (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/register.js:28:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-static-cache/index.js:51:63
+
+pid: 36320
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 17:48:39,722 ERROR 43434 [-/127.0.0.1/-/15ms POST /api/register] nodejs.TypeError: ctx.service.register.findAccount is not a function
+    at Register.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/register.js:13:55)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 43434
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 17:49:38,652 ERROR 43456 [-/127.0.0.1/-/11ms POST /api/register] nodejs.TypeError: ctx.service.register.findAccount is not a function
+    at Register.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/register.js:13:55)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 43456
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 17:59:54,342 ERROR 43724 [-/127.0.0.1/-/17ms POST /api/register] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'verificationCode' in 'field list'
+    at Query.Sequence._packetToError (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:65:19)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:54:5
+    sql: INSERT INTO `account`(`email`, `verificationCode`, `account`, `password`, `repeatPassword`) VALUES('2225@qq.com', '22', '22', '11', '11')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'verificationCode' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `account`(`email`, `verificationCode`, `account`, `password`, `repeatPassword`) VALUES('2225@qq.com', '22', '22', '11', '11')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 43724
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 18:01:56,193 ERROR 43777 [-/127.0.0.1/-/23ms POST /api/register] nodejs.ER_NO_DEFAULT_FOR_FIELDError: ER_NO_DEFAULT_FOR_FIELD: Field 'regTime' doesn't have a default value
+    at Query.Sequence._packetToError (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:65:19)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:54:5
+    sql: INSERT INTO `account`(`account`, `password`, `email`) VALUES('22', '22', '2225@qq.com')
+code: "ER_NO_DEFAULT_FOR_FIELD"
+errno: 1364
+sqlMessage: "Field 'regTime' doesn't have a default value"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO `account`(`account`, `password`, `email`) VALUES('22', '22', '2225@qq.com')"
+name: "ER_NO_DEFAULT_FOR_FIELDError"
+pid: 43777
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 18:12:15,856 ERROR 43913 [-/127.0.0.1/-/15ms POST /api/register] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'account' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:65:19)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `account` WHERE `account` = '222' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'account' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `account` WHERE `account` = '222' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 43913
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 18:13:56,592 ERROR 43949 [-/127.0.0.1/-/16ms POST /api/register] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'account' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:65:19)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `account` WHERE `account` = '11' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'account' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `account` WHERE `account` = '11' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 43949
+hostname: zhendeMacBook-Pro.local
+
+2020-03-06 22:53:10,629 ERROR 48275 [-/127.0.0.1/-/1319ms POST /api/emailVerify] nodejs.TypeError: this.setState is not a function
+    at Register.emailVerify (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/register.js:61:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-static-cache/index.js:51:63
+
+pid: 48275
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 08:31:37,357 ERROR 1502 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1126:14)
+    --------------------
+    at Protocol._enqueue (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 1502
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 08:33:23,566 WARN 1548 [-/127.0.0.1/-/13ms POST /api/emailVerify] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-07 08:33:23,568 WARN 1548 [-/127.0.0.1/-/14ms POST /api/emailVerify] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:153:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 1548
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 08:36:43,815 ERROR 1587 [-/127.0.0.1/-/3ms POST /api/register] nodejs.ReferenceError: requestObj is not defined
+    at RegisterService.saveAccount (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/register.js:7:47)
+    at Register.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/register.js:36:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+
+pid: 1587
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 08:38:46,153 ERROR 1696 [-/127.0.0.1/-/95ms POST /api/register] nodejs.ER_DATA_TOO_LONGError: ER_DATA_TOO_LONG: Data too long for column 'password' at row 1
+    at Query.Sequence._packetToError (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:65:19)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:54:5
+    sql: INSERT INTO `account`(`username`, `password`, `email`) VALUES('37', '$2a$10$jdvlmlaaCk0T/vyFix8XNeaqQ9AbkZ0kAHxqi9GfUv56CrKRmGnPG', '1575539475@qq.com')
+code: "ER_DATA_TOO_LONG"
+errno: 1406
+sqlMessage: "Data too long for column 'password' at row 1"
+sqlState: "22001"
+index: 0
+sql: "INSERT INTO `account`(`username`, `password`, `email`) VALUES('37', '$2a$10$jdvlmlaaCk0T/vyFix8XNeaqQ9AbkZ0kAHxqi9GfUv56CrKRmGnPG', '1575539475@qq.com')"
+name: "ER_DATA_TOO_LONGError"
+pid: 1696
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 11:05:18,017 ERROR 3736 [-/127.0.0.1/-/15ms POST /api/login] nodejs.ReferenceError: account is not defined
+    at LoginService.findAccount (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:28:67)
+    at LoginService.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:5:36)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:7:50)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 3736
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 11:11:02,297 ERROR 3881 [-/127.0.0.1/-/16ms POST /api/login] nodejs.ReferenceError: hashPwd is not defined
+    at LoginService.checkPassword (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:41:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async LoginService.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:14:20)
+    at async Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:7:26)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+
+pid: 3881
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 11:11:47,978 ERROR 3908 [-/127.0.0.1/-/118ms POST /api/login] nodejs.ReferenceError: hashPwd is not defined
+    at LoginService.checkPassword (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:45:34)
+    at async LoginService.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:14:20)
+    at async Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:7:26)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+
+pid: 3908
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 21:47:40,698 ERROR 11816 [-/127.0.0.1/-/2ms POST /api/login] nodejs.ReferenceError: signToken is not defined
+    at LoginService.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:7:7)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:6:50)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+
+pid: 11816
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 22:14:18,445 ERROR 12379 [-/127.0.0.1/-/13ms POST /api/login] nodejs.ReferenceError: signToken is not defined
+    at LoginService.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:7:7)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:6:50)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+
+pid: 12379
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 22:15:06,148 ERROR 12400 [-/127.0.0.1/-/14ms POST /api/login] nodejs.ReferenceError: app is not defined
+    at LoginService.signToken (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:55:19)
+    at LoginService.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:7:18)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:6:50)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 12400
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 22:16:07,015 ERROR 12434 [-/127.0.0.1/-/18ms POST /api/login] nodejs.ReferenceError: token is not defined
+    at LoginService.signToken (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:57:32)
+    at LoginService.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:7:18)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:6:50)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 12434
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 22:32:13,434 ERROR 12850 [-/127.0.0.1/-/12ms POST /api/login] nodejs.TypeError: this.ctx.header.cookie.get is not a function
+    at LoginService.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:6:59)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:6:50)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+
+pid: 12850
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 22:32:18,473 ERROR 12850 [-/127.0.0.1/-/1ms POST /api/login] nodejs.TypeError: this.ctx.header.cookie.get is not a function
+    at LoginService.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:6:59)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:6:50)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+
+pid: 12850
+hostname: zhendeMacBook-Pro.local
+
+2020-03-07 23:41:25,865 ERROR 13370 [-/127.0.0.1/-/21ms POST /api/login] nodejs.TypeError: Cannot read property 'get' of undefined
+    at LoginService.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:6:52)
+    at Login.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/login.js:6:50)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+
+pid: 13370
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 16:58:29,502 WARN 35742 [-/127.0.0.1/-/2ms POST /api/uploadFile] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-09 16:58:29,505 WARN 35742 [-/127.0.0.1/-/4ms POST /api/uploadFile] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 35742
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 17:24:53,748 WARN 36278 [-/127.0.0.1/-/148ms POST /api/uploadFile] nodejs.Request_fileSize_limitError: Reach fileSize limit
+    at limit (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/extend/context.js:24:15)
+    at Object.saveRequestFiles (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/extend/context.js:145:22)
+    at async multipart (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/middleware/multipart.js:13:5)
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-static-cache/index.js:51:63
+code: "Request_fileSize_limit"
+status: 413
+name: "Request_fileSize_limitError"
+pid: 36278
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 17:28:25,356 ERROR 36357 [-/127.0.0.1/-/214ms POST /api/uploadFile] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.basename (path.js:1157:5)
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:11:50)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 36357
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 17:30:03,257 ERROR 36395 [-/127.0.0.1/-/163ms POST /api/uploadFile] nodejs.ReferenceError: path is not defined
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:11:45)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 36395
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 17:32:07,155 ERROR 36436 [-/127.0.0.1/-/149ms POST /api/uploadFile] nodejs.TypeError: Cannot read property 'put' of undefined
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:15:33)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 36436
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 17:36:11,853 ERROR 36526 [-/127.0.0.1/-/156ms POST /api/uploadFile] nodejs.ReferenceError: fs is not defined
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:11:21)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 36526
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 17:36:59,681 ERROR 36575 [-/127.0.0.1/-/223ms POST /api/uploadFile] nodejs.TypeError: The "path" argument must be one of type string, Buffer, or URL. Received type undefined
+    at Object.openSync (fs.js:443:10)
+    at Object.readFileSync (fs.js:353:35)
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:11:24)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 36575
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 17:42:30,376 ERROR 36667 [-/127.0.0.1/-/191ms POST /api/uploadFile] nodejs.TypeError: The "path" argument must be one of type string, Buffer, or URL. Received type undefined
+    at Object.openSync (fs.js:443:10)
+    at Object.readFileSync (fs.js:353:35)
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:12:24)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 36667
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 18:08:14,495 ERROR 37012 [-/127.0.0.1/-/247ms POST /api/uploadFile] nodejs.ReferenceError: fs is not defined
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:20:9)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 37012
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 18:08:59,018 ERROR 37041 [-/127.0.0.1/-/210ms POST /api/uploadFile] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir '/Users/yao37/projects/practices/graduation-project/egg_system/app/public/upload/test_by_yaoxzzip'
+    at Object.mkdirSync (fs.js:834:3)
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:20:37)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+path: "/Users/yao37/projects/practices/graduation-project/egg_system/app/public/upload/test_by_yaoxzzip"
+name: "ENOENTError"
+pid: 37041
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 18:10:35,591 ERROR 37068 [-/127.0.0.1/-/228ms POST /api/uploadFile] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir '/Users/yao37/projects/practices/graduation-project/egg_system/app/public/upload/test_by_yaoxzzip'
+    at Object.mkdirSync (fs.js:834:3)
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:19:36)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+path: "/Users/yao37/projects/practices/graduation-project/egg_system/app/public/upload/test_by_yaoxzzip"
+name: "ENOENTError"
+pid: 37068
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 18:11:05,884 ERROR 37094 [-/127.0.0.1/-/208ms POST /api/uploadFile] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir '/Users/yao37/projects/practices/graduation-project/egg_system/app/public/upload/test_by_yaoxzzip'
+    at Object.mkdirSync (fs.js:834:3)
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:19:36)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+path: "/Users/yao37/projects/practices/graduation-project/egg_system/app/public/upload/test_by_yaoxzzip"
+name: "ENOENTError"
+pid: 37094
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 18:12:31,458 ERROR 37129 [-/127.0.0.1/-/218ms POST /api/uploadFile] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir '../../app/public/uploadRowData/'
+    at Object.mkdirSync (fs.js:834:3)
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:17:47)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+path: "../../app/public/uploadRowData/"
+name: "ENOENTError"
+pid: 37129
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 18:13:24,649 ERROR 37147 [-/127.0.0.1/-/223ms POST /api/uploadFile] nodejs.ReferenceError: res is not defined
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:25:41)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 37147
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 18:16:27,830 ERROR 37207 [-/127.0.0.1/-/220ms POST /api/uploadFile] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir '../../app/public/uploadRowData'
+    at Object.mkdirSync (fs.js:834:3)
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:18:47)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+path: "../../app/public/uploadRowData"
+name: "ENOENTError"
+pid: 37207
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 18:17:16,884 ERROR 37233 [-/127.0.0.1/-/252ms POST /api/uploadFile] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir '/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/app/public/uploadRowData'
+    at Object.mkdirSync (fs.js:834:3)
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:18:47)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+path: "/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/app/public/uploadRowData"
+name: "ENOENTError"
+pid: 37233
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 18:18:03,637 ERROR 37251 [-/127.0.0.1/-/264ms POST /api/uploadFile] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir '/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/app/public/uploadRowData'
+    at Object.mkdirSync (fs.js:834:3)
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:19:47)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+path: "/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/app/public/uploadRowData"
+name: "ENOENTError"
+pid: 37251
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 18:32:42,813 WARN 37506 [-/127.0.0.1/-/489ms POST /api/uploadFile] nodejs.Request_fileSize_limitError: Reach fileSize limit
+    at limit (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/extend/context.js:24:15)
+    at Object.saveRequestFiles (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/extend/context.js:145:22)
+    at async multipart (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/middleware/multipart.js:13:5)
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-static-cache/index.js:51:63
+code: "Request_fileSize_limit"
+status: 413
+name: "Request_fileSize_limitError"
+pid: 37506
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 18:36:49,823 WARN 37596 [-/127.0.0.1/-/15ms POST /api/uploadFile] nodejs.Error: Invalid filename: 形式与政策_姚旭真_计科2班_201630599630.docx
+    at checkFile (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:209:13)
+    at Busboy.emit (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:209:13)
+    at HeaderParser.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:209:13)
+    at HeaderParser._finish (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 37596
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 20:48:46,610 ERROR 40845 [-/127.0.0.1/-/17ms POST /api/downloadZip] nodejs.ReferenceError: Path is not defined
+    at Data.downloadZip (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/data.js:11:26)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 40845
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 20:49:17,884 ERROR 40877 [-/127.0.0.1/-/26ms POST /api/downloadZip] nodejs.ReferenceError: fs is not defined
+    at Data.downloadZip (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/data.js:14:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 40877
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 20:50:00,900 ERROR 40904 [-/127.0.0.1/-/17ms POST /api/downloadZip] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/yao37/projects/practices/graduation-project/egg_system/app/public/uploadRowData/phpMyAdmin-5.0.1-all-languages.zip'
+ENOENTError: ENOENT: no such file or directory, open '/Users/yao37/projects/practices/graduation-project/egg_system/app/public/uploadRowData/phpMyAdmin-5.0.1-all-languages.zip'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/yao37/projects/practices/graduation-project/egg_system/app/public/uploadRowData/phpMyAdmin-5.0.1-all-languages.zip"
+name: "ENOENTError"
+pid: 40904
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 20:52:53,477 ERROR 40992 [-/127.0.0.1/-/22ms POST /api/downloadZip] nodejs.TypeError: ctx.body is not a function
+    at Data.downloadZip (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/data.js:17:13)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 40992
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 20:56:14,574 ERROR 41076 [-/127.0.0.1/-/20ms POST /api/downloadZip] nodejs.ReferenceError: fs is not defined
+    at Data.downloadZip (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/data.js:16:22)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 41076
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 21:00:36,444 ERROR 41215 [-/127.0.0.1/-/214ms POST /api/downloadZip] nodejs.RequestError: getaddrinfo ENOTFOUND users, GET http:///Users/yao37/projects/practices/graduation-project/egg_system/app/public/uploadRowData/test_by_yaoxz__zip/phpMyAdmin-5.0.1-all-languages.zip -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"users:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "users"
+name: "RequestError"
+data: undefined
+path: "/yao37/projects/practices/graduation-project/egg_system/app/public/uploadRowData/test_by_yaoxz__zip/phpMyAdmin-5.0.1-all-languages.zip"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":196,"keepAliveSocket":false,"requestUrls":["http://users/yao37/projects/practices/graduation-project/egg_system/app/public/uploadRowData/test_by_yaoxz__zip/phpMyAdmin-5.0.1-all-languages.zip"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 41215
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 21:04:27,979 ERROR 41272 [-/127.0.0.1/-/34ms POST /api/downloadZip] nodejs.RequestError: getaddrinfo ENOTFOUND users, GET http:///Users/yao37/projects/practices/graduation-project/egg_system/app/public/uploadRowData/test_by_yaoxz__zip/附件1：华南理工大学本科生毕业设计（论文）管理办法及相关文件.rar -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"users:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "users"
+name: "RequestError"
+data: undefined
+path: "/yao37/projects/practices/graduation-project/egg_system/app/public/uploadRowData/test_by_yaoxz__zip/%E9%99%84%E4%BB%B61%EF%BC%9A%E5%8D%8E%E5%8D%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E6%9C%AC%E7%A7%91%E7%94%9F%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1%EF%BC%88%E8%AE%BA%E6%96%87%EF%BC%89%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%96%87%E4%BB%B6.rar"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":8,"keepAliveSocket":false,"requestUrls":["http://users/yao37/projects/practices/graduation-project/egg_system/app/public/uploadRowData/test_by_yaoxz__zip/%E9%99%84%E4%BB%B61%EF%BC%9A%E5%8D%8E%E5%8D%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E6%9C%AC%E7%A7%91%E7%94%9F%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1%EF%BC%88%E8%AE%BA%E6%96%87%EF%BC%89%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%96%87%E4%BB%B6.rar"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 41272
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 21:06:34,001 ERROR 41320 [-/127.0.0.1/-/33ms POST /api/downloadZip] nodejs.RequestError: getaddrinfo ENOTFOUND users, GET http:///Users/yao37/projects/practices/graduation-project/egg_system/app/public/uploadRowData/test_by_yaoxz__zip/phpMyAdmin-5.0.1-all-languages.zip -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"users:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "users"
+name: "RequestError"
+data: undefined
+path: "/yao37/projects/practices/graduation-project/egg_system/app/public/uploadRowData/test_by_yaoxz__zip/phpMyAdmin-5.0.1-all-languages.zip"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":8,"keepAliveSocket":false,"requestUrls":["http://users/yao37/projects/practices/graduation-project/egg_system/app/public/uploadRowData/test_by_yaoxz__zip/phpMyAdmin-5.0.1-all-languages.zip"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 41320
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 21:10:57,606 ERROR 41386 [-/127.0.0.1/-/22ms POST /api/downloadZip] nodejs.ReferenceError: res is not defined
+    at Data.downloadZip (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/data.js:21:27)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 41386
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 21:26:18,043 ERROR 41783 [-/127.0.0.1/-/10ms POST /api/uploadFile] nodejs.TypeError: Cannot read property '0' of undefined
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:11:38)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 41783
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 21:28:00,229 ERROR 41783 [-/127.0.0.1/-/0ms POST /api/uploadFile] nodejs.TypeError: Cannot read property '0' of undefined
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:11:38)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 41783
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 21:28:37,071 ERROR 41890 [-/127.0.0.1/-/7ms POST /api/uploadFile] nodejs.TypeError: Cannot read property '0' of undefined
+    at Order.uploadFile (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:12:38)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 41890
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 21:30:39,272 ERROR 41945 [-/127.0.0.1/-/14ms POST /api/downloadZip] nodejs.ReferenceError: type is not defined
+    at Data.downloadZip (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/data.js:17:14)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 41945
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 21:31:07,520 ERROR 41985 [-/127.0.0.1/-/16ms POST /api/downloadZip] nodejs.ReferenceError: type is not defined
+    at Data.downloadZip (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/data.js:17:14)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 41985
+hostname: zhendeMacBook-Pro.local
+
+2020-03-09 21:31:53,330 ERROR 42030 [-/127.0.0.1/-/27ms POST /api/downloadZip] nodejs.ReferenceError: body is not defined
+    at Data.downloadZip (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/data.js:18:14)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 42030
+hostname: zhendeMacBook-Pro.local
+

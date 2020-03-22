@@ -1,0 +1,238 @@
+2020-03-18 11:48:38,607 ERROR 91030 [-/127.0.0.1/-/14ms POST /api/addOrder] nodejs.TypeError: ctx.service.generateOrderNumber is not a function
+    at Order.addOrder (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:32:21)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 91030
+hostname: zhendeMacBook-Pro.local
+
+2020-03-18 15:00:05,572 ERROR 93152 [-/127.0.0.1/-/35ms POST /api/addOrder] nodejs.TypeError: Cannot read property 'filepath' of null
+    at Order.addOrder (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:57:55)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-static-cache/index.js:51:63
+
+pid: 93152
+hostname: zhendeMacBook-Pro.local
+
+2020-03-18 15:02:49,571 ERROR 93196 [-/127.0.0.1/-/18ms POST /api/addOrder] nodejs.TypeError: Cannot read property 'filename' of null
+    at Order.addOrder (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:50:55)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+
+pid: 93196
+hostname: zhendeMacBook-Pro.local
+
+2020-03-18 15:03:29,592 ERROR 93231 [-/127.0.0.1/-/14ms POST /api/addOrder] nodejs.TypeError: Cannot read property 'filename' of null
+    at Order.addOrder (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:51:55)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-static-cache/index.js:51:63
+
+pid: 93231
+hostname: zhendeMacBook-Pro.local
+
+2020-03-18 15:05:11,526 ERROR 93267 [-/127.0.0.1/-/14ms POST /api/addOrder] nodejs.TypeError: Cannot read property 'filename' of null
+    at Order.addOrder (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:50:55)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-static-cache/index.js:51:63
+
+pid: 93267
+hostname: zhendeMacBook-Pro.local
+
+2020-03-18 15:06:46,054 ERROR 93298 [-/127.0.0.1/-/15ms POST /api/addOrder] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at Order.addOrder (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:50:55)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-static-cache/index.js:51:63
+
+pid: 93298
+hostname: zhendeMacBook-Pro.local
+
+2020-03-18 15:08:22,293 ERROR 93349 [-/127.0.0.1/-/16ms POST /api/addOrder] nodejs.ENOENTError: ENOENT: no such file or directory, open 'phpMyAdmin-5.0.1-all-languages.zip'
+    at Object.openSync (fs.js:451:3)
+    at Object.readFileSync (fs.js:353:35)
+    at Order.addOrder (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:49:29)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "phpMyAdmin-5.0.1-all-languages.zip"
+name: "ENOENTError"
+pid: 93349
+hostname: zhendeMacBook-Pro.local
+
+2020-03-18 15:10:10,539 ERROR 93396 [-/127.0.0.1/-/136ms POST /api/addOrder] nodejs.ReferenceError: dataId is not defined
+    at Order.addOrder (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:77:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-bodyparser/index.js:86:5)
+
+pid: 93396
+hostname: zhendeMacBook-Pro.local
+
+2020-03-18 15:13:04,025 ERROR 93461 [-/127.0.0.1/-/125ms POST /api/addOrder] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'patient_height' cannot be null
+    at Query.Sequence._packetToError (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:65:19)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:54:5
+    sql: INSERT INTO `order`(`userid`, `patient_name`, `patient_height`, `patient_weight`, `patient_sex`, `patient_part`, `patient_org`, `data_id`, `access_id`, `order_number`) VALUES(6, '12', NULL, '23', '1', '喉咙', '食道', NULL, NULL, '2020021181513033D00000')
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'patient_height' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `order`(`userid`, `patient_name`, `patient_height`, `patient_weight`, `patient_sex`, `patient_part`, `patient_org`, `data_id`, `access_id`, `order_number`) VALUES(6, '12', NULL, '23', '1', '喉咙', '食道', NULL, NULL, '2020021181513033D00000')"
+name: "ER_BAD_NULL_ERRORError"
+pid: 93461
+hostname: zhendeMacBook-Pro.local
+
+2020-03-18 15:16:31,999 ERROR 93561 [-/127.0.0.1/-/134ms POST /api/addOrder] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'data_id' cannot be null
+    at Query.Sequence._packetToError (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:65:19)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:54:5
+    sql: INSERT INTO `order`(`userid`, `patient_name`, `patient_height`, `patient_weight`, `patient_sex`, `patient_part`, `patient_org`, `data_id`, `access_id`, `order_number`) VALUES(6, '23', '23', '23', '1', '喉咙', '心脏', NULL, NULL, '2020021181516313D00000')
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'data_id' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `order`(`userid`, `patient_name`, `patient_height`, `patient_weight`, `patient_sex`, `patient_part`, `patient_org`, `data_id`, `access_id`, `order_number`) VALUES(6, '23', '23', '23', '1', '喉咙', '心脏', NULL, NULL, '2020021181516313D00000')"
+name: "ER_BAD_NULL_ERRORError"
+pid: 93561
+hostname: zhendeMacBook-Pro.local
+
+2020-03-18 15:18:36,677 ERROR 93619 [-/127.0.0.1/-/116ms POST /api/addOrder] nodejs.ER_NO_DEFAULT_FOR_FIELDError: ER_NO_DEFAULT_FOR_FIELD: Field 'create_time' doesn't have a default value
+    at Query.Sequence._packetToError (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:65:19)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/co/index.js:54:5
+    sql: INSERT INTO `order`(`userid`, `patient_name`, `patient_height`, `patient_weight`, `patient_sex`, `patient_part`, `patient_org`, `data_id`, `access_id`, `order_number`) VALUES(6, '23', '23', '23', '1', '喉咙', '食道', 4, 4, '2020021181518363D00000')
+code: "ER_NO_DEFAULT_FOR_FIELD"
+errno: 1364
+sqlMessage: "Field 'create_time' doesn't have a default value"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO `order`(`userid`, `patient_name`, `patient_height`, `patient_weight`, `patient_sex`, `patient_part`, `patient_org`, `data_id`, `access_id`, `order_number`) VALUES(6, '23', '23', '23', '1', '喉咙', '食道', 4, 4, '2020021181518363D00000')"
+name: "ER_NO_DEFAULT_FOR_FIELDError"
+pid: 93619
+hostname: zhendeMacBook-Pro.local
+
+2020-03-18 16:43:20,731 ERROR 95520 [-/127.0.0.1/-/6ms GET /api/getUserOrder] nodejs.TypeError: Cannot read property '0' of undefined
+    at Order.getUserOrder (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js:111:39)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:36:12
+
+pid: 95520
+hostname: zhendeMacBook-Pro.local
+

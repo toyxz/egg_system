@@ -92,6 +92,15 @@
       "cron": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/config/config.default.js"
     }
   },
+  "static": {
+    "prefix": "/Users/yao37/projects/practices/graduation-project/egg_system/config/config.default.js",
+    "dynamic": "/Users/yao37/projects/practices/graduation-project/egg_system/config/config.default.js",
+    "dir": "/Users/yao37/projects/practices/graduation-project/egg_system/config/config.default.js",
+    "preload": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-static/config/config.default.js"
+  },
+  "sequence": "/Users/yao37/projects/practices/graduation-project/egg_system/config/config.default.js",
   "session": {
     "maxAge": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-session/config/config.default.js",
     "key": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-session/config/config.default.js",
@@ -151,14 +160,6 @@
     "rotateDuration": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/config/config.default.js",
     "maxDays": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/config/config.default.js"
   },
-  "static": {
-    "prefix": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-static/config/config.default.js",
-    "dir": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-static/config/config.default.js",
-    "dynamic": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-static/config/config.default.js",
-    "preload": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-static/config/config.default.js"
-  },
   "view": {
     "root": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-view/config/config.default.js",
     "cache": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-view/config/config.local.js",
@@ -200,6 +201,7 @@
       "egg-jwt": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js",
       "egg-multipart": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js",
+      "egg-static": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js",
       "nodemailer": "/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {

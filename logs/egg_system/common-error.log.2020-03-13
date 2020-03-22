@@ -1,0 +1,182 @@
+2020-03-13 11:17:08,746 ERROR 2172 [-/127.0.0.1/-/2ms GET /api/checkAuth] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/jsonwebtoken/verify.js:53:17)
+    at AsyncFunction.<computed>.verify (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-jwt/app/extend/application.js:42:20)
+    at LoginService.checkToken (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:73:38)
+    at Auth.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/auth.js:6:50)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 2172
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 11:44:58,056 ERROR 2172 [-/127.0.0.1/-/1ms GET /api/checkAuth] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/jsonwebtoken/verify.js:53:17)
+    at AsyncFunction.<computed>.verify (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-jwt/app/extend/application.js:42:20)
+    at LoginService.checkToken (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js:73:38)
+    at Auth.index (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/auth.js:6:50)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 2172
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 12:34:41,969 ERROR 1502 nodejs.ClusterClientNoResponseError: client no response in 576012ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1502
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 12:59:55,766 ERROR 12666 nodejs.ClusterClientNoResponseError: client no response in 562219ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12666
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 13:10:12,848 ERROR 12666 nodejs.ClusterClientNoResponseError: client no response in 576054ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12666
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 13:20:09,134 ERROR 12666 nodejs.ClusterClientNoResponseError: client no response in 576254ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12666
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 13:30:25,101 ERROR 12666 nodejs.ClusterClientNoResponseError: client no response in 575956ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12666
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 13:40:22,012 ERROR 12666 nodejs.ClusterClientNoResponseError: client no response in 576881ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12666
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 14:12:29,097 ERROR 12666 nodejs.ClusterClientNoResponseError: client no response in 1867033ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12666
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 14:23:25,479 ERROR 12666 nodejs.ClusterClientNoResponseError: client no response in 576310ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12666
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 14:33:41,382 ERROR 12666 nodejs.ClusterClientNoResponseError: client no response in 575860ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12666
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 14:46:45,321 ERROR 12666 nodejs.ClusterClientNoResponseError: client no response in 147865ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12666
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 15:05:04,355 ERROR 12666 nodejs.ClusterClientNoResponseError: client no response in 175474ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12666
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 15:12:15,592 ERROR 12666 nodejs.ClusterClientNoResponseError: client no response in 291205ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12666
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 16:42:13,003 ERROR 14166 [-/undefined/-/9752ms GET /public/stl/al5/1.stl] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:87:16)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 14166
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 16:44:17,756 ERROR 14166 [-/undefined/-/7221ms GET /public/stl/al5/1.stl] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:87:16)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 14166
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 16:48:55,654 ERROR 14166 [-/undefined/-/825ms GET /public/stl/al5/1.stl] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:87:16)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 14166
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 17:23:11,478 ERROR 12666 nodejs.ClusterClientNoResponseError: client no response in 571620ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12666
+hostname: zhendeMacBook-Pro.local
+
+2020-03-13 17:37:45,009 ERROR 12666 nodejs.ClusterClientNoResponseError: client no response in 236701ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12666
+hostname: zhendeMacBook-Pro.local
+
+2020-03-14 01:02:24,107 ERROR 12666 nodejs.ClusterClientNoResponseError: client no response in 2084502ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12666
+hostname: zhendeMacBook-Pro.local
+

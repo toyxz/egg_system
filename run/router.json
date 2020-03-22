@@ -88,19 +88,6 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/api/showUserOrder",
-    "regexp": "/^\\/api\\/showUserOrder(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
       "POST"
     ],
     "paramNames": [],
@@ -131,6 +118,133 @@
     "paramNames": [],
     "path": "/api/downloadZip",
     "regexp": "/^\\/api\\/downloadZip(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getSTL",
+    "regexp": "/^\\/api\\/getSTL(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/postDetailInfo",
+    "regexp": "/^\\/api\\/postDetailInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getRegisterState",
+    "regexp": "/^\\/api\\/getRegisterState(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/confirmAudit",
+    "regexp": "/^\\/api\\/confirmAudit(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getUserInfo",
+    "regexp": "/^\\/api\\/getUserInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getUserOrder",
+    "regexp": "/^\\/api\\/getUserOrder(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getAuditOrder",
+    "regexp": "/^\\/api\\/getAuditOrder(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/submitAuditOrder",
+    "regexp": "/^\\/api\\/submitAuditOrder(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getAuditUser",
+    "regexp": "/^\\/api\\/getAuditUser(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/submitAuditUser",
+    "regexp": "/^\\/api\\/submitAuditUser(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

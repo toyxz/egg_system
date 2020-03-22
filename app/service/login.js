@@ -10,18 +10,18 @@ class LoginService extends Service {
       message: '',
       hasLogin: false,
     };
-    // 跳转登陆页面
-    if (hasToken) {
-      response.success = true;
-      response.message = '进入后台';
-      response.hasLogin = true;
-      return response; // 设置响应 该响应可以让前端转到后台主页面 直接return response
-    } else if(rememberMe) {
+    if(rememberMe) {
       // 签发token
       const token = await this.signToken(account);
       this.ctx.cookies.set('authToken', token);
     }
-    // console.log('has token-----?', this.ctx.cookies.get('authToken'));
+    // // 跳转登陆页面
+    // if (hasToken) {
+    //   response.success = true;
+    //   response.message = '进入后台';
+    //   response.hasLogin = true;
+    //   return response; // 设置响应 该响应可以让前端转到后台主页面 直接return response
+    // } 
     if (!findAccount) {
       response.success = false;
       response.message = '找不到该账户名称';
@@ -69,11 +69,15 @@ class LoginService extends Service {
   async checkToken() {
     // 获取cookie中的token
     const token = this.ctx.cookies.get('authToken');
-    // this.app.jwt.verify(token, this.config.jwt.secret) : { name: '37', iat: 1583591327 }
-    const userAccount = this.app.jwt.verify(token, this.config.jwt.secret).name;
-    const find = await this.findAccount(userAccount);
-    if (find) {
-      return true;
+    if (token) {
+      // this.app.jwt.verify(token, this.config.jwt.secret) : { name: '37', iat: 1583591327 }
+      const userAccount = this.app.jwt.verify(token, this.config.jwt.secret).name;
+      const find = await this.findAccount(userAccount);
+      if (find) {
+        return true;
+      } else {
+        return false;
+      }
     } else {
       return false;
     }

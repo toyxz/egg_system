@@ -1,0 +1,144 @@
+2020-03-13 05:10:14,228 INFO 2172 [egg-logrotator] app logger reload: got log-reload message
+2020-03-13 09:40:13,510 INFO 2172 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/tb/qt6d92sn33x4xpstn8nzzhbc0000gn/T/egg-multipart-tmp/egg_system"
+2020-03-13 09:40:13,515 INFO 2172 [-/127.0.0.1/-/6ms SCHEDULE /__schedule?path=/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-03-13 12:34:41,969 WARN 2172 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-13 12:42:40,746 INFO 12670 [egg:logger] init all loggers with options: {"dir":"/Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg_system-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-13 12:42:40,770 INFO 12670 [egg-multipart] file mode enable
+2020-03-13 12:42:40,770 INFO 12670 [egg-multipart] will save temporary files to "/var/folders/tb/qt6d92sn33x4xpstn8nzzhbc0000gn/T/egg-multipart-tmp/egg_system", cleanup job cron: "0 30 4 * * *"
+2020-03-13 12:42:40,770 INFO 12670 [egg-mysql] connecting root@127.0.0.1:3306/Web3D
+2020-03-13 12:42:40,912 INFO 12670 [egg-static] starting static serve /public/ -> /Users/yao37/projects/practices/graduation-project/egg_system/app/public
+2020-03-13 12:42:40,916 INFO 12670 [egg-security] use csrf middleware
+2020-03-13 12:42:40,917 INFO 12670 [egg-security] use methodnoallow middleware
+2020-03-13 12:42:40,917 INFO 12670 [egg-security] use noopen middleware
+2020-03-13 12:42:40,918 INFO 12670 [egg-security] use nosniff middleware
+2020-03-13 12:42:40,918 INFO 12670 [egg-security] use xssProtection middleware
+2020-03-13 12:42:40,919 INFO 12670 [egg-security] use xframe middleware
+2020-03-13 12:42:40,920 INFO 12670 [egg-security] use dta middleware
+2020-03-13 12:42:40,920 INFO 12670 [egg-security] compose 7 middlewares into one security middleware
+2020-03-13 12:42:40,933 INFO 12670 [egg:core] dump config after load, 6ms
+2020-03-13 12:42:40,947 INFO 12670 [egg-watcher:application] watcher start success
+2020-03-13 12:42:40,949 INFO 12670 [egg-mysql] instance[0] status OK, rds currentTime: Fri Mar 13 2020 12:42:40 GMT+0800 (GMT+08:00)
+2020-03-13 12:42:40,957 INFO 12670 [egg:core] dump config after ready, 6ms
+2020-03-13 12:45:02,208 INFO 12723 [egg:logger] init all loggers with options: {"dir":"/Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg_system-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-13 12:45:02,290 INFO 12723 [egg-multipart] file mode enable
+2020-03-13 12:45:02,290 INFO 12723 [egg-multipart] will save temporary files to "/var/folders/tb/qt6d92sn33x4xpstn8nzzhbc0000gn/T/egg-multipart-tmp/egg_system", cleanup job cron: "0 30 4 * * *"
+2020-03-13 12:45:02,291 INFO 12723 [egg-mysql] connecting root@127.0.0.1:3306/Web3D
+2020-03-13 12:45:02,523 INFO 12723 [egg-static] starting static serve /public/ -> /Users/yao37/projects/practices/graduation-project/egg_system/app/public
+2020-03-13 12:45:02,526 INFO 12723 [egg-security] use csrf middleware
+2020-03-13 12:45:02,527 INFO 12723 [egg-security] use methodnoallow middleware
+2020-03-13 12:45:02,528 INFO 12723 [egg-security] use noopen middleware
+2020-03-13 12:45:02,529 INFO 12723 [egg-security] use nosniff middleware
+2020-03-13 12:45:02,530 INFO 12723 [egg-security] use xssProtection middleware
+2020-03-13 12:45:02,532 INFO 12723 [egg-security] use xframe middleware
+2020-03-13 12:45:02,533 INFO 12723 [egg-security] use dta middleware
+2020-03-13 12:45:02,533 INFO 12723 [egg-security] compose 7 middlewares into one security middleware
+2020-03-13 12:45:02,553 INFO 12723 [egg:core] dump config after load, 9ms
+2020-03-13 12:45:02,567 INFO 12723 [egg-watcher:application] watcher start success
+2020-03-13 12:45:02,569 INFO 12723 [egg-mysql] instance[0] status OK, rds currentTime: Fri Mar 13 2020 12:45:02 GMT+0800 (GMT+08:00)
+2020-03-13 12:45:02,577 INFO 12723 [egg:core] dump config after ready, 6ms
+2020-03-13 12:47:53,252 INFO 12787 [egg:logger] init all loggers with options: {"dir":"/Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg_system-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-13 12:47:53,284 INFO 12787 [egg-multipart] file mode enable
+2020-03-13 12:47:53,284 INFO 12787 [egg-multipart] will save temporary files to "/var/folders/tb/qt6d92sn33x4xpstn8nzzhbc0000gn/T/egg-multipart-tmp/egg_system", cleanup job cron: "0 30 4 * * *"
+2020-03-13 12:47:53,284 INFO 12787 [egg-mysql] connecting root@127.0.0.1:3306/Web3D
+2020-03-13 12:47:53,474 INFO 12787 [egg-static] starting static serve /public/ -> /Users/yao37/projects/practices/graduation-project/egg_system/app/public
+2020-03-13 12:47:53,477 INFO 12787 [egg-security] use csrf middleware
+2020-03-13 12:47:53,478 INFO 12787 [egg-security] use methodnoallow middleware
+2020-03-13 12:47:53,479 INFO 12787 [egg-security] use noopen middleware
+2020-03-13 12:47:53,480 INFO 12787 [egg-security] use nosniff middleware
+2020-03-13 12:47:53,481 INFO 12787 [egg-security] use xssProtection middleware
+2020-03-13 12:47:53,481 INFO 12787 [egg-security] use xframe middleware
+2020-03-13 12:47:53,482 INFO 12787 [egg-security] use dta middleware
+2020-03-13 12:47:53,482 INFO 12787 [egg-security] compose 7 middlewares into one security middleware
+2020-03-13 12:47:53,500 INFO 12787 [egg:core] dump config after load, 7ms
+2020-03-13 12:47:53,512 INFO 12787 [egg-watcher:application] watcher start success
+2020-03-13 12:47:53,514 INFO 12787 [egg-mysql] instance[0] status OK, rds currentTime: Fri Mar 13 2020 12:47:53 GMT+0800 (GMT+08:00)
+2020-03-13 12:47:53,520 INFO 12787 [egg:core] dump config after ready, 5ms
+2020-03-13 12:59:55,765 WARN 12787 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-13 13:10:12,851 WARN 12787 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-13 13:20:09,133 WARN 12787 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-13 13:30:25,102 WARN 12787 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-13 13:30:25,103 WARN 12787 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-13 13:40:22,005 WARN 12787 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-13 13:40:22,005 WARN 12787 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-13 14:12:29,098 WARN 12787 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-13 14:23:25,479 WARN 12787 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-13 14:33:41,382 WARN 12787 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-13 14:46:45,319 WARN 12787 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-13 14:46:45,320 WARN 12787 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-13 14:51:06,675 INFO 13110 [egg:logger] init all loggers with options: {"dir":"/Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg_system-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-13 14:51:06,715 INFO 13110 [egg-multipart] file mode enable
+2020-03-13 14:51:06,715 INFO 13110 [egg-multipart] will save temporary files to "/var/folders/tb/qt6d92sn33x4xpstn8nzzhbc0000gn/T/egg-multipart-tmp/egg_system", cleanup job cron: "0 30 4 * * *"
+2020-03-13 14:51:06,716 INFO 13110 [egg-mysql] connecting root@127.0.0.1:3306/Web3D
+2020-03-13 14:51:06,893 INFO 13110 [egg-static] starting static serve /public/ -> /Users/yao37/projects/practices/graduation-project/egg_system/app/public
+2020-03-13 14:51:06,896 INFO 13110 [egg-security] use csrf middleware
+2020-03-13 14:51:06,897 INFO 13110 [egg-security] use methodnoallow middleware
+2020-03-13 14:51:06,898 INFO 13110 [egg-security] use noopen middleware
+2020-03-13 14:51:06,899 INFO 13110 [egg-security] use nosniff middleware
+2020-03-13 14:51:06,900 INFO 13110 [egg-security] use xssProtection middleware
+2020-03-13 14:51:06,901 INFO 13110 [egg-security] use xframe middleware
+2020-03-13 14:51:06,902 INFO 13110 [egg-security] use dta middleware
+2020-03-13 14:51:06,902 INFO 13110 [egg-security] compose 7 middlewares into one security middleware
+2020-03-13 14:51:06,921 INFO 13110 [egg:core] dump config after load, 7ms
+2020-03-13 14:51:06,935 INFO 13110 [egg-watcher:application] watcher start success
+2020-03-13 14:51:06,937 INFO 13110 [egg-mysql] instance[0] status OK, rds currentTime: Fri Mar 13 2020 14:51:06 GMT+0800 (GMT+08:00)
+2020-03-13 14:51:06,944 INFO 13110 [egg:core] dump config after ready, 5ms
+2020-03-13 14:58:08,443 INFO 13253 [egg:logger] init all loggers with options: {"dir":"/Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg_system-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-13 14:58:08,473 INFO 13253 [egg-multipart] file mode enable
+2020-03-13 14:58:08,473 INFO 13253 [egg-multipart] will save temporary files to "/var/folders/tb/qt6d92sn33x4xpstn8nzzhbc0000gn/T/egg-multipart-tmp/egg_system", cleanup job cron: "0 30 4 * * *"
+2020-03-13 14:58:08,474 INFO 13253 [egg-mysql] connecting root@127.0.0.1:3306/Web3D
+2020-03-13 14:58:08,649 INFO 13253 [egg-static] starting static serve /public/ -> /Users/yao37/projects/practices/graduation-project/egg_system/app/public
+2020-03-13 14:58:08,651 INFO 13253 [egg-security] use csrf middleware
+2020-03-13 14:58:08,652 INFO 13253 [egg-security] use methodnoallow middleware
+2020-03-13 14:58:08,652 INFO 13253 [egg-security] use noopen middleware
+2020-03-13 14:58:08,653 INFO 13253 [egg-security] use nosniff middleware
+2020-03-13 14:58:08,653 INFO 13253 [egg-security] use xssProtection middleware
+2020-03-13 14:58:08,654 INFO 13253 [egg-security] use xframe middleware
+2020-03-13 14:58:08,656 INFO 13253 [egg-security] use dta middleware
+2020-03-13 14:58:08,656 INFO 13253 [egg-security] compose 7 middlewares into one security middleware
+2020-03-13 14:58:08,675 INFO 13253 [egg:core] dump config after load, 6ms
+2020-03-13 14:58:08,709 INFO 13253 [egg-watcher:application] watcher start success
+2020-03-13 14:58:08,715 INFO 13253 [egg-mysql] instance[0] status OK, rds currentTime: Fri Mar 13 2020 14:58:08 GMT+0800 (GMT+08:00)
+2020-03-13 14:58:08,724 INFO 13253 [egg:core] dump config after ready, 7ms
+2020-03-13 15:05:04,356 WARN 13253 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-13 15:12:15,592 WARN 13253 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-13 15:23:23,354 INFO 13645 [egg:logger] init all loggers with options: {"dir":"/Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg_system-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-13 15:23:23,382 INFO 13645 [egg-multipart] file mode enable
+2020-03-13 15:23:23,382 INFO 13645 [egg-multipart] will save temporary files to "/var/folders/tb/qt6d92sn33x4xpstn8nzzhbc0000gn/T/egg-multipart-tmp/egg_system", cleanup job cron: "0 30 4 * * *"
+2020-03-13 15:23:23,382 INFO 13645 [egg-mysql] connecting root@127.0.0.1:3306/Web3D
+2020-03-13 15:23:23,562 INFO 13645 [egg-static] starting static serve /public/ -> /Users/yao37/projects/practices/graduation-project/egg_system/app/public
+2020-03-13 15:23:23,565 INFO 13645 [egg-security] use csrf middleware
+2020-03-13 15:23:23,566 INFO 13645 [egg-security] use methodnoallow middleware
+2020-03-13 15:23:23,566 INFO 13645 [egg-security] use noopen middleware
+2020-03-13 15:23:23,567 INFO 13645 [egg-security] use nosniff middleware
+2020-03-13 15:23:23,568 INFO 13645 [egg-security] use xssProtection middleware
+2020-03-13 15:23:23,568 INFO 13645 [egg-security] use xframe middleware
+2020-03-13 15:23:23,569 INFO 13645 [egg-security] use dta middleware
+2020-03-13 15:23:23,569 INFO 13645 [egg-security] compose 7 middlewares into one security middleware
+2020-03-13 15:23:23,590 INFO 13645 [egg:core] dump config after load, 9ms
+2020-03-13 15:23:23,603 INFO 13645 [egg-watcher:application] watcher start success
+2020-03-13 15:23:23,606 INFO 13645 [egg-mysql] instance[0] status OK, rds currentTime: Fri Mar 13 2020 15:23:23 GMT+0800 (GMT+08:00)
+2020-03-13 15:23:23,611 INFO 13645 [egg:core] dump config after ready, 4ms
+2020-03-13 15:46:18,254 INFO 14166 [egg:logger] init all loggers with options: {"dir":"/Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg_system-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-13 15:46:18,293 INFO 14166 [egg-multipart] file mode enable
+2020-03-13 15:46:18,293 INFO 14166 [egg-multipart] will save temporary files to "/var/folders/tb/qt6d92sn33x4xpstn8nzzhbc0000gn/T/egg-multipart-tmp/egg_system", cleanup job cron: "0 30 4 * * *"
+2020-03-13 15:46:18,294 INFO 14166 [egg-mysql] connecting root@127.0.0.1:3306/Web3D
+2020-03-13 15:46:18,551 INFO 14166 [egg-static] starting static serve /public/ -> /Users/yao37/projects/practices/graduation-project/egg_system/app/public
+2020-03-13 15:46:18,555 INFO 14166 [egg-security] use csrf middleware
+2020-03-13 15:46:18,556 INFO 14166 [egg-security] use methodnoallow middleware
+2020-03-13 15:46:18,557 INFO 14166 [egg-security] use noopen middleware
+2020-03-13 15:46:18,559 INFO 14166 [egg-security] use nosniff middleware
+2020-03-13 15:46:18,560 INFO 14166 [egg-security] use xssProtection middleware
+2020-03-13 15:46:18,560 INFO 14166 [egg-security] use xframe middleware
+2020-03-13 15:46:18,562 INFO 14166 [egg-security] use dta middleware
+2020-03-13 15:46:18,562 INFO 14166 [egg-security] compose 7 middlewares into one security middleware
+2020-03-13 15:46:18,579 INFO 14166 [egg:core] dump config after load, 4ms
+2020-03-13 15:46:18,594 INFO 14166 [egg-watcher:application] watcher start success
+2020-03-13 15:46:18,598 INFO 14166 [egg-mysql] instance[0] status OK, rds currentTime: Fri Mar 13 2020 15:46:18 GMT+0800 (GMT+08:00)
+2020-03-13 15:46:18,608 INFO 14166 [egg:core] dump config after ready, 9ms
+2020-03-13 17:23:11,478 WARN 14166 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-13 17:37:45,007 WARN 14166 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-13 17:37:45,008 WARN 14166 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-14 01:02:24,125 WARN 14166 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-14 03:51:50,237 INFO 14166 [egg-logrotator] clean all log before 31 days
+2020-03-14 03:51:51,231 INFO 14166 [egg-logrotator] broadcast log-reload
+2020-03-14 03:51:51,232 INFO 14166 [egg-logrotator] rotate files success by DayRotator, files ["/Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system/common-error.log -> /Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system/common-error.log.2020-03-13","/Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system/egg_system-web.log -> /Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system/egg_system-web.log.2020-03-13","/Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system/egg-web.log -> /Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system/egg-web.log.2020-03-13","/Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system/egg-schedule.log -> /Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system/egg-schedule.log.2020-03-13","/Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system/egg-agent.log -> /Users/yao37/projects/practices/graduation-project/egg_system/logs/egg_system/egg-agent.log.2020-03-13"]

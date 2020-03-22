@@ -1,0 +1,33 @@
+2020-03-13 09:40:13,509 INFO 2172 [Job#1584063613508494142680385511] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-03-13 09:40:13,515 INFO 2172 [Job#1584063613508494142680385511] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 6ms
+2020-03-13 09:40:13,512 INFO 1502 [Timer] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 67786492ms at 2020-03-14 04:30:00.004
+2020-03-13 12:42:40,963 INFO 12666 [Timer] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 56839039ms at 2020-03-14 04:30:00.002
+2020-03-13 12:42:40,963 INFO 12666 [Timer] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 40639037ms at 2020-03-14 00:00:00.000
+2020-03-13 12:42:40,964 INFO 12666 [Timer] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 40640037ms at 2020-03-14 00:00:01.001
+2020-03-13 12:42:40,769 INFO 12670 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-03-13 12:42:40,769 INFO 12670 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-03-13 12:42:40,769 INFO 12670 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-03-13 12:45:02,289 INFO 12723 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-03-13 12:45:02,289 INFO 12723 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-03-13 12:45:02,289 INFO 12723 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-03-13 12:47:53,283 INFO 12787 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-03-13 12:47:53,283 INFO 12787 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-03-13 12:47:53,283 INFO 12787 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-03-13 14:51:06,712 INFO 13110 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-03-13 14:51:06,712 INFO 13110 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-03-13 14:51:06,712 INFO 13110 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-03-13 14:58:08,472 INFO 13253 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-03-13 14:58:08,472 INFO 13253 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-03-13 14:58:08,472 INFO 13253 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-03-13 15:23:23,380 INFO 13645 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-03-13 15:23:23,380 INFO 13645 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-03-13 15:23:23,380 INFO 13645 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-03-13 15:46:18,293 INFO 14166 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-03-13 15:46:18,293 INFO 14166 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-03-13 15:46:18,293 INFO 14166 [egg-schedule]: register schedule /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-03-14 03:51:50,227 INFO 12666 [Timer] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 72489777ms at 2020-03-15 00:00:00.004
+2020-03-14 03:51:50,225 INFO 14166 [Job#15841291102221004443903288091] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-03-14 03:51:50,237 INFO 14166 [Job#15841291102221004443903288091] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 9ms
+2020-03-14 03:51:51,229 INFO 12666 [Timer] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 72489775ms at 2020-03-15 00:00:01.003
+2020-03-14 03:51:51,225 INFO 14166 [Job#15841291112241004453924943291] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-03-14 03:51:51,232 INFO 14166 [Job#15841291112241004453924943291] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 7ms

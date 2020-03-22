@@ -1,0 +1,6 @@
+2020-03-20 00:00:00,112 INFO 96802 [Job#15846336001114690466827912282] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-03-20 00:00:00,117 INFO 96802 [Job#15846336001114690466827912282] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 5ms
+2020-03-20 00:00:00,116 INFO 95488 [Timer] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86399888ms at 2020-03-21 00:00:00.004
+2020-03-20 00:00:01,115 INFO 96802 [Job#15846336011154690476860067052] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-03-20 00:00:01,121 INFO 96802 [Job#15846336011154690476860067052] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 6ms
+2020-03-20 00:00:01,118 INFO 95488 [Timer] /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86399885ms at 2020-03-21 00:00:01.003

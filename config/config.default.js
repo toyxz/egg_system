@@ -1,3 +1,4 @@
+const  Path = require('path');
 module.exports = appInfo => {
 	const config = exports = {};
     config.keys = appInfo.name + '_1583142601162_8887';
@@ -38,6 +39,12 @@ module.exports = appInfo => {
             '.zip','.rar',
         ],
     };
+    config.static = {
+        prefix: '/public/',
+        dynamic: true,
+        dir: Path.join(appInfo.baseDir, 'app/public')
+    };
+    config.sequence = 0;
 	return {
         ...config,
 	};

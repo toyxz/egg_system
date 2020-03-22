@@ -73,6 +73,104 @@ class Register extends Controller {
         // email: String,  code: Number
         return emailObj[email] == code;
     }
+
+    async registerDetailInfo() {
+        const { ctx } = this;
+        const { formData, userAccount } = ctx.request.body;
+        const { name, gender, email, tel, registrationWay, code} = formData;
+        // 从登陆信息拿到个人信息（如果不是记住我的话怎么办） 那就从刚开始登陆的state里面拿信息
+        const accountResult = await this.ctx.service.register.findAccount(userAccount);
+        if (accountResult) {
+            const requestObj = {
+                name,
+                sex: gender,
+                email,
+                tel,
+                account_id: accountResult.id,
+                code,
+                agent: registrationWay,
+            }
+            await this.ctx.service.register.saveDetailAccount(requestObj);
+            ctx.body = {
+                success: true,
+                message: '提交成功，注册信息进入审核状态',
+            }
+        } else {
+            ctx.body = {
+                success: false,
+                message: '账户信息出错',
+            }
+        }
+    }
+
+    async getRegisterState() {
+        // todo：如果是记住用户状态的话。 从token里面拿username
+        const { ctx } = this;
+        if (ctx.request.body.userAccount) {
+            const result = await this.ctx.service.register.findUserById(ctx.request.body.userAccount);
+            ctx.body = {
+                state: result.audit_state,
+            };
+        } else {
+            const token = this.ctx.cookies.get('authToken');
+            if (token) {
+              const { name } = this.app.jwt.verify(token, this.config.jwt.secret);
+              const result = await this.ctx.service.register.findUserById(name);
+              ctx.body = {
+                  state: result.audit_state,
+              };
+            } else {
+                ctx.response.status = 500;
+                ctx.body = {
+                    message: '找不到状态',
+                }; // 代做统一处理
+            }
+        }
+
+    }
+
+    async confirmAudit() {
+        const { ctx } = this;
+        const state = 1;
+        if (ctx.request.body.userAccount) {
+            const result = await this.ctx.service.register.modifyRegisterState(ctx.request.body.userAccount, state);
+            if (result.affectedRows === 1) {
+                ctx.body = {
+                    state,
+                    success: true,
+                    message: '审核通过',
+                };
+            } else {
+                ctx.body = {
+                    success: false,
+                    message: '系统出错',
+                };
+            }
+        } else {
+            const token = this.ctx.cookies.get('authToken');
+            if (token) {
+              const { name } = this.app.jwt.verify(token, this.config.jwt.secret);
+              const result = await this.ctx.service.register.modifyRegisterState(name, state);
+              if (result.affectedRows === 1) {
+                ctx.body = {
+                    state,
+                    success: true,
+                    message: '审核通过',
+                };
+              } else {
+                ctx.body = {
+                    success: false,
+                    message: '系统出错',
+                };
+              }
+            } else {
+                ctx.body = {
+                    success: false,
+                    message: '系统出错',
+                };
+            }
+        }
+    }
 }
 
 module.exports = Register;

@@ -1,0 +1,104 @@
+2020-03-21 03:27:36,425 INFO 95488 [egg-logrotator] agent logger reload: got log-reload message
+2020-03-21 12:48:11,785 ERROR 95488 nodejs.ClusterClientNoResponseError: client no response in 575558ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 95488
+hostname: zhendeMacBook-Pro.local
+
+2020-03-21 12:58:27,878 ERROR 95488 nodejs.ClusterClientNoResponseError: client no response in 576069ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 95488
+hostname: zhendeMacBook-Pro.local
+
+2020-03-21 13:08:25,010 ERROR 95488 nodejs.ClusterClientNoResponseError: client no response in 577115ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 95488
+hostname: zhendeMacBook-Pro.local
+
+2020-03-21 13:18:42,057 ERROR 95488 nodejs.ClusterClientNoResponseError: client no response in 577022ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 95488
+hostname: zhendeMacBook-Pro.local
+
+2020-03-21 13:28:58,153 ERROR 95488 nodejs.ClusterClientNoResponseError: client no response in 576075ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 95488
+hostname: zhendeMacBook-Pro.local
+
+2020-03-21 13:39:15,204 ERROR 95488 nodejs.ClusterClientNoResponseError: client no response in 577023ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 95488
+hostname: zhendeMacBook-Pro.local
+
+2020-03-21 14:48:22,265 ERROR 95488 nodejs.ClusterClientNoResponseError: client no response in 4127041ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 95488
+hostname: zhendeMacBook-Pro.local
+
+2020-03-21 19:30:44,006 ERROR 95488 nodejs.ClusterClientNoResponseError: client no response in 578729ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 95488
+hostname: zhendeMacBook-Pro.local
+
+2020-03-21 19:41:01,076 ERROR 95488 nodejs.ClusterClientNoResponseError: client no response in 577048ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 95488
+hostname: zhendeMacBook-Pro.local
+
+2020-03-21 20:19:50,010 ERROR 95488 nodejs.ClusterClientNoResponseError: client no response in 2268892ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 95488
+hostname: zhendeMacBook-Pro.local
+
+2020-03-21 20:37:04,193 INFO 95488 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/public/uploadRowData/6_23/2020021212037033D00004","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36047629,"size":14425350,"blocks":28176,"atimeMs":1584794224081.4297,"mtimeMs":1584794224088.4983,"ctimeMs":1584794224088.4983,"birthtimeMs":1584794224081.4297,"atime":"2020-03-21T12:37:04.081Z","mtime":"2020-03-21T12:37:04.088Z","ctime":"2020-03-21T12:37:04.088Z","birthtime":"2020-03-21T12:37:04.081Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-21 20:40:57,436 INFO 95488 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/public/uploadRowData/6_23/2020021212040573D00005","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36049137,"size":14425350,"blocks":28176,"atimeMs":1584794457373.4934,"mtimeMs":1584794457382.0554,"ctimeMs":1584794457382.0554,"birthtimeMs":1584794457373.4934,"atime":"2020-03-21T12:40:57.373Z","mtime":"2020-03-21T12:40:57.382Z","ctime":"2020-03-21T12:40:57.382Z","birthtime":"2020-03-21T12:40:57.373Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-21 20:54:44,516 WARN 95488 [agent:development] reload worker because /Users/yao37/projects/practices/graduation-project/egg_system/app/router/auth.js change
+2020-03-21 20:54:44,310 INFO 95488 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/router/auth.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":33967345,"size":1203,"blocks":8,"atimeMs":1584522731548.212,"mtimeMs":1584795284248.909,"ctimeMs":1584795284248.909,"birthtimeMs":1583311731384.812,"atime":"2020-03-18T09:12:11.548Z","mtime":"2020-03-21T12:54:44.249Z","ctime":"2020-03-21T12:54:44.249Z","birthtime":"2020-03-04T08:48:51.385Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-21 20:59:52,603 WARN 95488 [agent:development] reload worker because /Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js change
+2020-03-21 20:59:52,398 INFO 95488 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":34403759,"size":5216,"blocks":16,"atimeMs":1584795588871.6216,"mtimeMs":1584795592336.6448,"ctimeMs":1584795592336.6448,"birthtimeMs":1583680356753.0876,"atime":"2020-03-21T12:59:48.872Z","mtime":"2020-03-21T12:59:52.337Z","ctime":"2020-03-21T12:59:52.337Z","birthtime":"2020-03-08T15:12:36.753Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-21 21:02:41,676 WARN 95488 [agent:development] reload worker because /Users/yao37/projects/practices/graduation-project/egg_system/app/service/order.js change
+2020-03-21 21:02:41,471 INFO 95488 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/service/order.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":34404819,"size":2944,"blocks":8,"atimeMs":1584795753279.0403,"mtimeMs":1584795761409.927,"ctimeMs":1584795761409.927,"birthtimeMs":1583681202069.1494,"atime":"2020-03-21T13:02:33.279Z","mtime":"2020-03-21T13:02:41.410Z","ctime":"2020-03-21T13:02:41.410Z","birthtime":"2020-03-08T15:26:42.069Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-21 21:02:53,273 WARN 95488 [agent:development] reload worker because /Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js change
+2020-03-21 21:02:53,016 INFO 95488 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":34403759,"size":5255,"blocks":16,"atimeMs":1584795594273.1177,"mtimeMs":1584795773008.8147,"ctimeMs":1584795773008.8147,"birthtimeMs":1583680356753.0876,"atime":"2020-03-21T12:59:54.273Z","mtime":"2020-03-21T13:02:53.009Z","ctime":"2020-03-21T13:02:53.009Z","birthtime":"2020-03-08T15:12:36.753Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-21 21:02:53,069 INFO 95488 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":34403759,"size":5255,"blocks":16,"atimeMs":1584795594273.1177,"mtimeMs":1584795773008.8147,"ctimeMs":1584795773008.8147,"birthtimeMs":1583680356753.0876,"atime":"2020-03-21T12:59:54.273Z","mtime":"2020-03-21T13:02:53.009Z","ctime":"2020-03-21T13:02:53.009Z","birthtime":"2020-03-08T15:12:36.753Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-21 21:40:12,892 INFO 95488 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":34403759,"size":5559,"blocks":16,"atimeMs":1584797983377.725,"mtimeMs":1584798012829.9685,"ctimeMs":1584798012829.9685,"birthtimeMs":1583680356753.0876,"atime":"2020-03-21T13:39:43.378Z","mtime":"2020-03-21T13:40:12.830Z","ctime":"2020-03-21T13:40:12.830Z","birthtime":"2020-03-08T15:12:36.753Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-21 21:40:13,093 WARN 95488 [agent:development] reload worker because /Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js change
+2020-03-21 21:41:06,456 WARN 95488 [agent:development] reload worker because /Users/yao37/projects/practices/graduation-project/egg_system/app/service/order.js change
+2020-03-21 21:41:06,251 INFO 95488 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/service/order.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":34404819,"size":2983,"blocks":8,"atimeMs":1584798057343.0498,"mtimeMs":1584798066189.2288,"ctimeMs":1584798066189.2288,"birthtimeMs":1583681202069.1494,"atime":"2020-03-21T13:40:57.343Z","mtime":"2020-03-21T13:41:06.189Z","ctime":"2020-03-21T13:41:06.189Z","birthtime":"2020-03-08T15:26:42.069Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-21 21:41:27,465 WARN 95488 [agent:development] reload worker because /Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js change
+2020-03-21 21:41:27,259 INFO 95488 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":34403759,"size":5528,"blocks":16,"atimeMs":1584798013833.2925,"mtimeMs":1584798087198.9812,"ctimeMs":1584798087198.9812,"birthtimeMs":1583680356753.0876,"atime":"2020-03-21T13:40:13.833Z","mtime":"2020-03-21T13:41:27.199Z","ctime":"2020-03-21T13:41:27.199Z","birthtime":"2020-03-08T15:12:36.753Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-21 21:42:09,122 WARN 95488 [agent:development] reload worker because /Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js change
+2020-03-21 21:42:08,921 INFO 95488 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":34403759,"size":5604,"blocks":16,"atimeMs":1584798089259.5354,"mtimeMs":1584798128860.3933,"ctimeMs":1584798128860.3933,"birthtimeMs":1583680356753.0876,"atime":"2020-03-21T13:41:29.260Z","mtime":"2020-03-21T13:42:08.860Z","ctime":"2020-03-21T13:42:08.860Z","birthtime":"2020-03-08T15:12:36.753Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-21 21:42:42,288 WARN 95488 [agent:development] reload worker because /Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js change
+2020-03-21 21:42:42,083 INFO 95488 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":34403759,"size":5568,"blocks":16,"atimeMs":1584798151573.0544,"mtimeMs":1584798162022.3938,"ctimeMs":1584798162022.3938,"birthtimeMs":1583680356753.0876,"atime":"2020-03-21T13:42:31.573Z","mtime":"2020-03-21T13:42:42.022Z","ctime":"2020-03-21T13:42:42.022Z","birthtime":"2020-03-08T15:12:36.753Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-21 21:43:07,953 WARN 95488 [agent:development] reload worker because /Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js change
+2020-03-21 21:43:07,752 INFO 95488 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/order.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":34403759,"size":5449,"blocks":16,"atimeMs":1584798163253.545,"mtimeMs":1584798187691.1333,"ctimeMs":1584798187691.1333,"birthtimeMs":1583680356753.0876,"atime":"2020-03-21T13:42:43.254Z","mtime":"2020-03-21T13:43:07.691Z","ctime":"2020-03-21T13:43:07.691Z","birthtime":"2020-03-08T15:12:36.753Z"},"remove":false,"isDirectory":false,"isFile":true}
