@@ -1,15 +1,16 @@
-2020-03-22 16:16:21,275 ERROR 41918 [-/127.0.0.1/-/23ms POST /api/submitAuditUser] nodejs.TypeError: Cannot destructure property `userId` of 'undefined' or 'null'.
-    at UserService.submitAuditUser (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/user.js:17:15)
-    at User.submitAuditUser (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/user.js:66:49)
-    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
-    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
-
-pid: 41918
+2020-03-25 14:31:32,367 WARN 78062 [-/127.0.0.1/-/21ms POST /api/login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-03-25 14:31:32,369 WARN 78062 [-/127.0.0.1/-/23ms POST /api/login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/app/extend/context.js:153:19)
+    at csrf (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 78062
 hostname: zhendeMacBook-Pro.local
 

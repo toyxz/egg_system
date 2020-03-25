@@ -206,6 +206,58 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/api/getImgData",
+    "regexp": "/^\\/api\\/getImgData(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getClassifyOption",
+    "regexp": "/^\\/api\\/getClassifyOption(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getClassifyValue",
+    "regexp": "/^\\/api\\/getClassifyValue(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getClassfyImgData",
+    "regexp": "/^\\/api\\/getClassfyImgData(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/api/getAuditOrder",
     "regexp": "/^\\/api\\/getAuditOrder(?:\\/(?=$))?$/",
     "stack": [
@@ -245,6 +297,81 @@
     "paramNames": [],
     "path": "/api/submitAuditUser",
     "regexp": "/^\\/api\\/submitAuditUser(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getOrderData",
+    "regexp": "/^\\/api\\/getOrderData(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/upLoadImg",
+    "regexp": "/^\\/api\\/upLoadImg(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/submitRebuildData",
+    "regexp": "/^\\/api\\/submitRebuildData(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/addEmployee",
+    "regexp": "/^\\/api\\/addEmployee(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getAllEmployee",
+    "regexp": "/^\\/api\\/getAllEmployee(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getAllRole",
+    "regexp": "/^\\/api\\/getAllRole(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

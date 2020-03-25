@@ -30,6 +30,10 @@ class UserService extends Service {
         }
         return false;
     }
+    async getNameById(id) {
+       const result = await this.app.mysql.get('user',{id});
+       return result.name;
+    }
 
 }
 

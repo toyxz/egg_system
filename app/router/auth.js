@@ -15,11 +15,29 @@ module.exports = app => {
     app.get('/api/confirmAudit', app.controller.register.confirmAudit);
     app.get('/api/getUserInfo', app.controller.user.getUserInfo);
     app.get('/api/getUserOrder', app.controller.order.getUserOrder);
+    app.get('/api/getImgData', app.controller.data.getImgData);
+    app.get('/api/getClassifyOption', app.controller.data.getClassifyOption);
+    app.get('/api/getClassifyValue', app.controller.data.getClassifyValue);
+    app.get('/api/getClassfyImgData', app.controller.data.getClassfyImgData);
+
+    
+
+    
     // 员工操作
     app.get('/api/getAuditOrder', app.controller.order.getAuditOrder);
     app.post('/api/submitAuditOrder', app.controller.order.submitAuditOrder);
     app.get('/api/getAuditUser', app.controller.user.getAuditUser);
     app.post('/api/submitAuditUser', app.controller.user.submitAuditUser);
+    app.get('/api/getOrderData', app.controller.data.getOrderData);
+    app.post('/api/upLoadImg', app.controller.data.upLoadImg);
+    app.post('/api/submitRebuildData', app.controller.data.submitRebuildData);
+    app.post('/api/addEmployee', app.controller.employee.addEmployee);
+    app.get('/api/getAllEmployee', app.controller.employee.getAllEmployee);
+
+    
+
+    // 权限角色
+    app.get('/api/getAllRole', app.controller.role.getAllRole);
 
     
   };

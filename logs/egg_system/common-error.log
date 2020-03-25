@@ -1,31 +1,16 @@
-2020-03-22 13:22:09,912 ERROR 95488 nodejs.ClusterClientNoResponseError: client no response in 565828ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-03-25 13:12:29,706 ERROR 70635 nodejs.ClusterClientNoResponseError: client no response in 1882462ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:531:17)
     at processTimers (internal/timers.js:475:7)
 name: "ClusterClientNoResponseError"
-pid: 95488
+pid: 70635
 hostname: zhendeMacBook-Pro.local
 
-2020-03-22 13:46:18,459 ERROR 95488 nodejs.ClusterClientNoResponseError: client no response in 1348503ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-03-25 13:42:45,587 ERROR 70635 nodejs.ClusterClientNoResponseError: client no response in 575571ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:531:17)
     at processTimers (internal/timers.js:475:7)
 name: "ClusterClientNoResponseError"
-pid: 95488
-hostname: zhendeMacBook-Pro.local
-
-2020-03-22 16:16:21,274 ERROR 41918 [-/127.0.0.1/-/23ms POST /api/submitAuditUser] nodejs.TypeError: Cannot destructure property `userId` of 'undefined' or 'null'.
-    at UserService.submitAuditUser (/Users/yao37/projects/practices/graduation-project/egg_system/app/service/user.js:17:15)
-    at User.submitAuditUser (/Users/yao37/projects/practices/graduation-project/egg_system/app/controller/user.js:66:49)
-    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:45:18)
-    at /Users/yao37/projects/practices/graduation-project/egg_system/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/koa-compose/index.js:44:32)
-
-pid: 41918
+pid: 70635
 hostname: zhendeMacBook-Pro.local
 

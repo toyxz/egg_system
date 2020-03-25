@@ -36,7 +36,7 @@ module.exports = appInfo => {
         mode: 'file',
         fileSize: '50mb',
         whitelist: [
-            '.zip','.rar',
+            '.zip','.rar','.jpg','.jpeg','.png', '.gif', '.bmp'
         ],
     };
     config.static = {

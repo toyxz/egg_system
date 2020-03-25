@@ -34,8 +34,8 @@ class AuthService extends Service {
   // 获取病患部位和器官 (暂时先在服务器设定)
   async getPatientOption() {
       return {
-         illPlaces: ["头","喉咙","胸部", "腹部", "大腿", "肩关节", "关节", "心脏", "臀部", "腰"],
-         illOrgans: ["关节","食道", "胃", "小肠", "心脏", "脾脏", "大脑"],
+         illPlaces: ["喉咙", "小肠", "肝脏", "肾脏", "子宫", "大脑"],
+         illOrgans: ["喉咙", "小肠", "肝脏", "肾脏", "子宫", "大脑"],
       }
   }
   // 创建订单
@@ -112,6 +112,10 @@ class AuthService extends Service {
       return true;
     }
     return false;
+  }
+  // 根据流水号获取订单
+  async getOrderByOrderNumber(orderNumber) {
+    return await this.app.mysql.get('order', {order_number: orderNumber});
   }
 }
 
