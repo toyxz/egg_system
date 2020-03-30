@@ -3,12 +3,14 @@ const Service = require('egg').Service;
 class LoginService extends Service {
   async index(requestObj) {
     const { password, account, rememberMe } = requestObj;
-    const hasToken = await this.checkToken();
+    const hasToken = await this.checkToken();  
     const findAccount = await this.findAccount(account);
     const response = {
       success: false,
       message: '',
       hasLogin: false,
+      identify: '',
+      ifCompleteInfo: false, // 用户是否已经注册具体信息
     };
     if(rememberMe) {
       // 签发token
@@ -28,6 +30,20 @@ class LoginService extends Service {
     } else {
       const find = await this.checkPassword(account,password);
       if (find) {
+        // 根据账户找user，如果找不到就是员工，找到就是employee
+        const aTemp = await this.app.mysql.get('account', {username: account});
+        const user  =  await this.app.mysql.get('user', {account_id: aTemp.id});
+        if (!user) {
+          // 查角色
+          const employee =  await this.app.mysql.get('employee', {account_id: aTemp.id});
+          if (employee) {
+            response.identify = employee.role_id; // 
+          }
+        } else {
+          if (aTemp.if_complete_info) {
+            response.ifCompleteInfo = true;
+          }
+        }
         response.success = true;
         response.message = '登陆成功';
       } else {

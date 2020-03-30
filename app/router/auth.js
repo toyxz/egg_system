@@ -6,8 +6,8 @@ module.exports = app => {
     app.get('/api/getPatientOption', app.controller.order.getPatientOption);
     app.post('/api/uploadFile', app.controller.order.uploadFile);
     app.post('/api/addOrder', app.controller.order.addOrder);
-    app.post('/api/auditOrder', app.controller.order.auditOrder);
-    app.get('/api/showAuditOrder', app.controller.order.showAuditOrder);
+    // app.post('/api/auditOrder', app.controller.order.auditOrder);
+    // app.get('/api/showAuditOrder', app.controller.order.showAuditOrder);
     app.post('/api/downloadZip', app.controller.data.downloadZip);
     app.get('/api/getSTL', app.controller.data.getSTL);
     app.post('/api/postDetailInfo', app.controller.register.registerDetailInfo);
@@ -19,12 +19,13 @@ module.exports = app => {
     app.get('/api/getClassifyOption', app.controller.data.getClassifyOption);
     app.get('/api/getClassifyValue', app.controller.data.getClassifyValue);
     app.get('/api/getClassfyImgData', app.controller.data.getClassfyImgData);
-
-    
+    app.get('/api/confirmPay', app.controller.order.confirmPay);
 
     
     // 员工操作
     app.get('/api/getAuditOrder', app.controller.order.getAuditOrder);
+    app.get('/api/getProcessOrder', app.controller.order.getProcessOrder);
+
     app.post('/api/submitAuditOrder', app.controller.order.submitAuditOrder);
     app.get('/api/getAuditUser', app.controller.user.getAuditUser);
     app.post('/api/submitAuditUser', app.controller.user.submitAuditUser);
@@ -33,11 +34,16 @@ module.exports = app => {
     app.post('/api/submitRebuildData', app.controller.data.submitRebuildData);
     app.post('/api/addEmployee', app.controller.employee.addEmployee);
     app.get('/api/getAllEmployee', app.controller.employee.getAllEmployee);
+    app.post('/api/submitProcessOrder', app.controller.order.submitProcessOrder);
 
+
+    
     
 
     // 权限角色
     app.get('/api/getAllRole', app.controller.role.getAllRole);
+    app.get('/api/getAuth', app.controller.auth.getAuth);
+
 
     
   };

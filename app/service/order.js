@@ -66,6 +66,7 @@ class AuthService extends Service {
       where: { userid: user.id }, // WHERE 条件
       orders: [['create_time','desc'], ['id','desc']], // 排序方式
     });
+    // 获取图片
     const total = orders.length;
     return { 
       orders,
@@ -116,6 +117,77 @@ class AuthService extends Service {
   // 根据流水号获取订单
   async getOrderByOrderNumber(orderNumber) {
     return await this.app.mysql.get('order', {order_number: orderNumber});
+  }
+  // 订单处理元获取订单信息
+  async getProcessOrder(userAccount,perPage, page) {
+    // userAccount 暂时用不到
+    // 注意报错机制
+    const orders = await this.app.mysql.select('order', {
+      where: { rebuild_state: 1, order_amount: null, order_state: 1}, // 已经重建且审核通过
+      orders: [['create_time','desc'], ['id','desc']], // 排序方式
+    });
+    const total = orders.length;
+    return {
+      total,
+      orders: this.rangeOrder(orders,page,perPage)
+    };
+  }
+  // 获取范围内的orders
+  rangeOrder(orderResult,page,perPage) {
+      return orderResult.slice((page-1)*perPage,page*perPage)
+  }
+  // 订单处理员提交订单
+  async submitProcessOrder(orderObj) {
+    const { orderNumber, amount } = orderObj;
+    // 查找订单
+    const row = {
+      order_amount: amount,
+    }
+    const option = {
+      where: {
+        order_number: orderNumber,
+      }
+    };
+    const result = await this.app.mysql.update('order', row, option); // 更新 order 表中的记录
+    if (result.affectedRows === 1) {
+      return true;
+    }
+    return false;
+  }
+  // 获取订单对应的重建图片
+  async getUserOrderImage(orderList, imgIdArray) {
+    let data = await this.app.mysql.select('data', {
+      where: { id: [...imgIdArray]}, // 已经重建且审核通过
+      orders: [['id','desc']], // 排序方式
+    });
+    data = data.filter(item => {return item.image;});
+    const dataArray = [];
+    data.forEach(item=>{
+      dataArray[item.id] = item.image;
+    })
+    orderList.forEach((item,index)=>{
+      if(item.rebuild_state === 1) {
+        item['rebuild_img'] = dataArray[item.data_id];
+      }
+    });
+    return orderList;
+  }
+  // 用户确认支付（测试接口）
+  async confirmPay(orderNumber) {
+    const row = {
+      pay_state: 1,
+    };
+    const option = {
+      where: {
+        order_number: orderNumber,
+      }
+    };
+    const result = await this.app.mysql.update('order', row, option); // 更新 access 表中的记录
+    if (result.affectedRows === 1 ) {
+      return true;
+    } else {
+      return false;
+    }
   }
 }
 

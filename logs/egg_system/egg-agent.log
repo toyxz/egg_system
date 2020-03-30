@@ -1,21 +1,99 @@
-2020-03-25 04:32:40,996 INFO 70635 [egg-logrotator] agent logger reload: got log-reload message
-2020-03-25 13:12:29,707 ERROR 70635 nodejs.ClusterClientNoResponseError: client no response in 1882462ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-03-30 04:22:55,824 INFO 31745 [egg-logrotator] agent logger reload: got log-reload message
+2020-03-30 12:37:06,848 INFO 31745 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/router/auth.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":33967345,"size":2474,"blocks":8,"atimeMs":1585466376250.8342,"mtimeMs":1585543026771.6353,"ctimeMs":1585543026771.6353,"birthtimeMs":1583311731384.812,"atime":"2020-03-29T07:19:36.251Z","mtime":"2020-03-30T04:37:06.772Z","ctime":"2020-03-30T04:37:06.772Z","birthtime":"2020-03-04T08:48:51.385Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-03-30 12:37:07,061 WARN 31745 [agent:development] reload worker because /Users/yao37/projects/practices/graduation-project/egg_system/app/router/auth.js change
+2020-03-30 13:04:42,250 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 573455ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:531:17)
     at processTimers (internal/timers.js:475:7)
 name: "ClusterClientNoResponseError"
-pid: 70635
+pid: 31745
 hostname: zhendeMacBook-Pro.local
 
-2020-03-25 13:42:45,588 ERROR 70635 nodejs.ClusterClientNoResponseError: client no response in 575571ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-03-30 13:25:00,417 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 576100ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:531:17)
     at processTimers (internal/timers.js:475:7)
 name: "ClusterClientNoResponseError"
-pid: 70635
+pid: 31745
 hostname: zhendeMacBook-Pro.local
 
-2020-03-25 14:32:39,980 WARN 70635 [agent:development] reload worker because /Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js change
-2020-03-25 14:32:39,774 INFO 70635 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":33925974,"size":2507,"blocks":8,"atimeMs":1584865413606.805,"mtimeMs":1585117959705.3396,"ctimeMs":1585117959705.3396,"birthtimeMs":1583289481997.117,"atime":"2020-03-22T08:23:33.607Z","mtime":"2020-03-25T06:32:39.705Z","ctime":"2020-03-25T06:32:39.705Z","birthtime":"2020-03-04T02:38:01.997Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-03-25 14:33:00,685 INFO 70635 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":33925974,"size":2504,"blocks":8,"atimeMs":1585117961043.3757,"mtimeMs":1585117980623.3516,"ctimeMs":1585117980623.3516,"birthtimeMs":1583289481997.117,"atime":"2020-03-25T06:32:41.043Z","mtime":"2020-03-25T06:33:00.623Z","ctime":"2020-03-25T06:33:00.623Z","birthtime":"2020-03-04T02:38:01.997Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-03-25 14:33:00,890 WARN 70635 [agent:development] reload worker because /Users/yao37/projects/practices/graduation-project/egg_system/app/service/login.js change
+2020-03-30 13:30:05,524 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 265090ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 13:51:46,759 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 581054ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 13:56:02,816 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 236035ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 18:19:21,473 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 576209ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 18:29:37,618 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 576123ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 18:40:00,805 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 583161ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 18:49:56,919 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 576089ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 19:00:14,043 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 577097ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 19:10:33,445 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 579375ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 20:21:49,555 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 4256095ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+

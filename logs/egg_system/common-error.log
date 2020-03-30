@@ -1,16 +1,96 @@
-2020-03-25 13:12:29,706 ERROR 70635 nodejs.ClusterClientNoResponseError: client no response in 1882462ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-03-30 13:04:42,249 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 573455ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:531:17)
     at processTimers (internal/timers.js:475:7)
 name: "ClusterClientNoResponseError"
-pid: 70635
+pid: 31745
 hostname: zhendeMacBook-Pro.local
 
-2020-03-25 13:42:45,587 ERROR 70635 nodejs.ClusterClientNoResponseError: client no response in 575571ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-03-30 13:25:00,417 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 576100ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:531:17)
     at processTimers (internal/timers.js:475:7)
 name: "ClusterClientNoResponseError"
-pid: 70635
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 13:30:05,524 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 265090ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 13:51:46,757 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 581054ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 13:56:02,816 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 236035ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 18:19:21,471 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 576209ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 18:29:37,615 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 576123ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 18:40:00,802 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 583161ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 18:49:56,917 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 576089ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 19:00:14,042 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 577097ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 19:10:33,445 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 579375ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
+hostname: zhendeMacBook-Pro.local
+
+2020-03-30 20:21:49,555 ERROR 31745 nodejs.ClusterClientNoResponseError: client no response in 4256095ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yao37/projects/practices/graduation-project/egg_system/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 31745
 hostname: zhendeMacBook-Pro.local
 

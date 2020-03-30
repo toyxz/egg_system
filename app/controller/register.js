@@ -90,7 +90,10 @@ class Register extends Controller {
                 code,
                 agent: registrationWay,
             }
+            // 存储信息
             await this.ctx.service.register.saveDetailAccount(requestObj);
+            // 修改是否注册完成信息状态 if_complete_info
+            await this.ctx.service.register.changeUserCompleteInfoState(requestObj.account_id, 1);
             ctx.body = {
                 success: true,
                 message: '提交成功，注册信息进入审核状态',
@@ -116,9 +119,15 @@ class Register extends Controller {
             if (token) {
               const { name } = this.app.jwt.verify(token, this.config.jwt.secret);
               const result = await this.ctx.service.register.findUserById(name);
-              ctx.body = {
-                  state: result.audit_state,
-              };
+              if (result) {
+                ctx.body = {
+                    state: result.audit_state,
+                };
+              } else {
+                ctx.body = {
+                    state: 404,
+                };             
+              }
             } else {
                 ctx.response.status = 500;
                 ctx.body = {

@@ -65,7 +65,7 @@ class DataService extends Service {
    async getImgOrderByUser(user) {
     // 获取已经重建的订单
     const orders = await this.app.mysql.select('order', {
-        where: { rebuild_state: 1},
+        where: { rebuild_state: 1, userid: user.id},
         orders: [['create_time','desc'], ['id','desc']], // 排序方式
     });
     const dataIds = [];

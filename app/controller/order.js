@@ -123,7 +123,13 @@ class Order extends Controller {
         }
         const { orders, total } = await ctx.service.order.getUserOrder(userAccount);
         // 截取
-        const orderList = this.rangeOrder(orders,page,perPage);
+        let orderList = this.rangeOrder(orders,page,perPage);
+        // 获取订单对应的图片
+        const imgIdArray = [];
+        orderList.forEach(item => {
+            imgIdArray.push(item.data_id);
+        });
+        orderList =  await ctx.service.order.getUserOrderImage(orderList, imgIdArray);
         ctx.body = {
             orderList: orderList,
             total,
@@ -178,6 +184,46 @@ class Order extends Controller {
                 success: false,
                 message: '修改失败'
             };
+        }
+    }
+    // 订单处理员处理订单
+    async getProcessOrder() {
+        const { ctx } = this;
+        const { userAccount, perPage, page } = ctx.query;
+        const response = await ctx.service.order.getProcessOrder(userAccount, perPage, page);
+        ctx.body = response;
+    }
+    // 订单员提交订单
+    async submitProcessOrder() {
+        const { ctx } = this;
+        const response = await ctx.service.order.submitProcessOrder(ctx.request.body);
+        if (response) {
+            ctx.body = {
+               success: true,
+               message: '提交成功',
+            }
+        } else {
+            ctx.body = {
+                success: false,
+                message: '提交失败',
+            }           
+        }
+    }
+    // 用户确认支付（测试接口）
+    async confirmPay() {
+        const { ctx } = this;
+        const { orderNumber } = ctx.query;
+        const response = await ctx.service.order.confirmPay(orderNumber);
+        if (response) {
+          ctx.body = {
+              success: true,
+              message: '支付成功',
+          }
+        } else {
+            ctx.body = {
+                success: false,
+                message: '支付失败',
+            } 
         }
     }
 }

@@ -91,31 +91,6 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/api/auditOrder",
-    "regexp": "/^\\/api\\/auditOrder(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/api/showAuditOrder",
-    "regexp": "/^\\/api\\/showAuditOrder(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
     "path": "/api/downloadZip",
     "regexp": "/^\\/api\\/downloadZip(?:\\/(?=$))?$/",
     "stack": [
@@ -258,8 +233,34 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/api/confirmPay",
+    "regexp": "/^\\/api\\/confirmPay(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/api/getAuditOrder",
     "regexp": "/^\\/api\\/getAuditOrder(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getProcessOrder",
+    "regexp": "/^\\/api\\/getProcessOrder(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -366,12 +367,37 @@
   {
     "name": null,
     "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/submitProcessOrder",
+    "regexp": "/^\\/api\\/submitProcessOrder(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "HEAD",
       "GET"
     ],
     "paramNames": [],
     "path": "/api/getAllRole",
     "regexp": "/^\\/api\\/getAllRole(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getAuth",
+    "regexp": "/^\\/api\\/getAuth(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

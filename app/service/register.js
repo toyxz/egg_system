@@ -34,6 +34,19 @@ class RegisterService extends Service {
         const result = await this.app.mysql.update('user', row, options); 
         return result;
     }
+    // 确认用户已经注册完整信息状态
+    async changeUserCompleteInfoState(accountId, state) {
+        const row = {
+            if_complete_info: state,
+        };
+        const options = {
+            where: {
+                id: accountId,
+            },
+        };
+        const result = await this.app.mysql.update('account', row, options); 
+        return result;
+    }
 }
 
 module.exports = RegisterService;

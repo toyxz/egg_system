@@ -21,6 +21,12 @@ class Auth extends Controller {
         ctx.body = response;
     }
 
+    async getAuth() {
+        const { ctx } = this;
+        const response = await ctx.service.auth.getAuth(ctx.request.body);
+        ctx.body = response;
+    } 
+
 }
 
 module.exports = Auth;
